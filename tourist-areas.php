@@ -20,7 +20,7 @@
     <?php include 'tourist-area/tourist-areas.php'; ?>
     
     <?php include 'includes/footer.php'; ?>
-    
+    <script src="assets/js/main2.js"></script>
     <script src="assets/js/script.js"></script>
      <script src="assets/js/main.js"></script>
 </body>

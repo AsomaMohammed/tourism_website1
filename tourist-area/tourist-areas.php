@@ -161,26 +161,26 @@ $categoryFilter = isset($_GET['category']) ? $_GET['category'] : '';
 
 <!-- Filter Wrapper -->
 <section class="tours-title-section">
-    <div class="title-box">المناطق السياحية في كوالالمبور
+    <div class="title-box">المناطق السياحية في كـــــــوالالمبور
     </div>
 </section>
 <section class="tours-filter-section">
   
     <form class="filter-wrapper" method="GET" action="">
         <!-- Search Input -->
-        <input type="text" 
+        <input type="text" class="filter-input"
                name="search" 
                placeholder="اسم المنطقة" 
                value="<?php echo htmlspecialchars($searchQuery); ?>">
         
         <!-- Category Select -->
-      <input type="text" 
+      <input type="text" class="filter-input"
                name="search" 
                placeholder="المكان" 
                value="<?php echo htmlspecialchars($searchQuery); ?>">
         
         <!-- Filter Button -->
-        <button type="submit" class="filter-btn">بحث</button>
+        <button type="submit" class="filter-btn"></button><!--بحث-->
     </form>
 </section>
 

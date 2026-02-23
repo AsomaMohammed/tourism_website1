@@ -132,10 +132,10 @@ $tours = [
     
         <div class="filter-wrapper">
 
-            <input type="text"  placeholder="البلد">
-            <input type="text"  placeholder="المدينة" >
+            <input type="text"class="filter-input"  placeholder="البلد">
+            <input type="text"class="filter-input"  placeholder="المدينة" >
 
-            <button class="filter-btn">بحـــث</button>
+            <button class="filter-btn"></button><!--بحث-->
 
         </div>
     
@@ -156,7 +156,7 @@ $tours = [
                     <div class="tour-content">
                         <p class="tour-title"><?php echo $tour['title']; ?></p>
                         <form  class='subpo'action="tourdetails.php" method="post" target="-blank">
-                        <button type="submit" class="btn-explore">تفاصيل</button></form>
+                        <button type="submit" class="btn-explore1">التفاصيــل</button></form>
                     </div>
                 </div>
             <?php endforeach; ?>

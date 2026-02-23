@@ -45,7 +45,7 @@ $offers = [
                         <p class="offer-title"><?php echo $offer['title']; ?></br>
                         <?php echo $offer['description']; ?><br><?php echo $offer['price']; ?> دولار</p>
                       
-                                 <div class="button-con"><button class="btn-explore">التفاصيل </button></div>   
+                                 <div class="button-con"><button class="btn-explore">التفاصيــل </button></div>   
                       
                     </div>
                 </div>

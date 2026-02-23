@@ -324,3 +324,23 @@ function openTab(tabName) {
     var activeButton = document.querySelector(`.tab-button[data-tab="${tabName}"]`);
     activeButton.classList.add('active');
 }
+
+
+
+
+
+
+
+    const menuBtn = document.getElementById('mobile-menu-btn');
+    const navbar = document.getElementById('navbar');
+
+    menuBtn.addEventListener('click', () => {
+        navbar.classList.toggle('active');
+    });
+
+    // إغلاق القائمة عند الضغط خارجها
+    document.addEventListener('click', (e) => {
+        if (!navbar.contains(e.target) && !menuBtn.contains(e.target)) {
+            navbar.classList.remove('active');
+        }
+    });

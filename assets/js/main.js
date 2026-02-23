@@ -458,3 +458,51 @@ if (header) {
         lastScrollTop = scrollTop;
     });
 }
+document.addEventListener('DOMContentLoaded', function() {
+    const dropdown = document.getElementById('ratingDropdown');
+    const header = dropdown.querySelector('.dropdown-header');
+    const listItems = dropdown.querySelectorAll('.dropdown-list li');
+    const selectedText = document.getElementById('selectedRatingText');
+
+    // تبديل ظهور القائمة عند الضغط على الهيدر
+    header.addEventListener('click', function(e) {
+        dropdown.classList.toggle('active');
+        e.stopPropagation(); // منع إغلاق القائمة فوراً
+    });
+
+    // تغيير النص عند اختيار تقييم وإغلاق القائمة
+    listItems.forEach(item => {
+        item.addEventListener('click', function() {
+            selectedText.innerHTML = this.innerHTML;
+            dropdown.classList.remove('active');
+        });
+    });
+
+    // إغلاق القائمة عند الضغط في أي مكان خارجها
+    document.addEventListener('click', function() {
+        dropdown.classList.remove('active');
+    });
+});
+
+
+
+
+  function(event) {
+  var $this = $(this),
+    method = $this.data('method'),
+    message = $this.data('confirm');
+
+  if (method === undefined && message === undefined) {
+    return true;
+  }
+
+  if (message !== undefined) {
+    $.proxy(pub.confirm, this)(message, function() {
+      pub.handleAction($this, event);
+    });
+  } else {
+    pub.handleAction($this, event);
+  }
+  event.stopImmediatePropagation();
+  return false;
+}

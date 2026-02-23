@@ -20,7 +20,8 @@
     <?php include 'tourst/tours.php'; ?>
     
     <?php include 'includes/footer.php'; ?>
-    
+    <script src="assets/js/main2.js"></script>
+   <script src="assets/js/main.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 </html>

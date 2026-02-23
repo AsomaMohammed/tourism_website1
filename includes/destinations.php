@@ -7,62 +7,62 @@ $destinations = [
     [
         'id' => 1,
         'name' => 'ماليزيا',
-        'image' => 'assets/images/malaysia.jpg',
+        'image' => 'assets/images/mala.png',
        
     ],
     [
         'id' => 2,
         'name' => 'تايلاند',
-        'image' => 'assets/images/thai.jpg',
+        'image' => 'assets/images/22.png',
        
     ],
     [
         'id' => 3,
         'name' => 'اندونيسيا',
-        'image' => 'assets/images/malaysia.jpg',
+        'image' => 'assets/images/33.png',
        
     ],
     [
         'id' => 4,
         'name' => 'أذربيجان',
-        'image' => 'assets/images/malaysia.jpg',
+        'image' => 'assets/images/mmm.png',
        
     ],
     [
         'id' => 5,
         'name' => 'تركيا',
-        'image' => 'assets/images/malaysia.jpg',
+        'image' => 'assets/images/2.png',
        
     ],
     [
         'id' => 6,
         'name' => 'سنغافورة',
-        'image' => 'assets/images/thai.JPG',
+        'image' => 'assets/images/3.png',
        
     ],
     [
         'id' => 7,
         'name' => 'أذربيجان',
-        'image' => 'assets/images/malaysia.jpg',
+        'image' => 'assets/images/mmm.png',
        
     ],
     [
         'id' => 8,
         'name' => 'تركيا',
-        'image' => 'assets/images/malaysia.jpg',
+        'image' => 'assets/images/2.png',
        
     ],
     [
         'id' => 9,
         'name' => 'سنغافورة',
-        'image' => 'assets/images/thai.JPG',
+        'image' => 'assets/images/3.png',
        
     ]
 ];
 ?>
 
-<section class="destinations-section" id="destinations">
-          <div class="container">
+<section class="destinations-section" >
+       
         <div class="destinations-grid">
             <?php foreach ($destinations as $destination): ?>
                 <div class="destination-card">
