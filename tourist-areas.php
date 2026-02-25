@@ -3,6 +3,8 @@
  * موقع سياحي - الصفحة الرئيسية
  * Travel Website - Home Page
  */
+
+require_once __DIR__ . '/config.php';
 ?>
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
@@ -20,8 +22,8 @@
     <?php include 'tourist-area/tourist-areas.php'; ?>
     
     <?php include 'includes/footer.php'; ?>
-    <script src="assets/js/main2.js"></script>
-    <script src="assets/js/script.js"></script>
-     <script src="assets/js/main.js"></script>
+    <script src="assets/js/main2.js" defer></script>
+    <script src="assets/js/script.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
 </body>
 </html>

@@ -197,7 +197,7 @@ $categoryFilter = isset($_GET['category']) ? $_GET['category'] : '';
             <div class="tour-content">
                 <h3 class="card-title-ar"><?php echo $area['name_ar']; ?></h3>
                 <p class="card-title-en"><?php echo $area['name_en']; ?></p>
-                <form  class='subpo'action="area-details.php" method="post" target="-blank">
+                <form class="subpo" action="area-details.php" method="post" target="_blank">
                 <button type="submit" class="btn-explore"> التفاصيل </button></form>
             </div>
         </div>

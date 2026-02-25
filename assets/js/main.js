@@ -486,8 +486,31 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
+document.addEventListener('DOMContentLoaded', function() {
+    const dropdowns = document.querySelectorAll('.has-dropdown1');
 
-  function(event) {
+    dropdowns.forEach(dropdown => {
+        const trigger = dropdown.querySelector('.dropdown-trigger');
+
+        trigger.addEventListener('click', function(e) {
+            e.stopPropagation(); // منع انتشار الحدث للأعلى
+            
+            // إغلاق أي قائمة أخرى مفتوحة
+            dropdowns.forEach(d => {
+                if (d !== dropdown) d.classList.remove('is-open');
+            });
+
+            // فتح أو إغلاق القائمة الحالية
+            dropdown.classList.toggle('is-open');
+        });
+    });
+
+    // إغلاق القوائم عند الضغط في أي مكان خارجها
+    document.addEventListener('click', function() {
+        dropdowns.forEach(d => d.classList.remove('is-open'));
+    });
+});
+ /* function(event) {
   var $this = $(this),
     method = $this.data('method'),
     message = $this.data('confirm');
@@ -505,4 +528,42 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   event.stopImmediatePropagation();
   return false;
-}
+}*/
+/****لتعديل القائمة  */
+// البحث عن الزر والقائمة
+document.querySelectorAll('.has-dropdown > .nav-link').forEach(link => {
+    link.addEventListener('click', function(e) {
+        if (window.innerWidth <= 1024) {
+            e.preventDefault(); // منع الرابط من الانتقال لصفحة أخرى عند فتح المنيو
+            
+            const parent = this.parentElement;
+            
+            // إغلاق أي قائمة أخرى مفتوحة (اختياري - لجعله مثل Accordion)
+            document.querySelectorAll('.nav-item').forEach(item => {
+                if (item !== parent) item.classList.remove('active');
+            });
+
+            // فتح أو إغلاق القائمة الحالية
+            parent.classList.toggle('active');
+        }
+    });
+});
+document.querySelectorAll('.has-dropdown > .nav-link').forEach(link => {
+    link.addEventListener('click', function(e) {
+        if (window.innerWidth <= 1024) {
+            e.preventDefault();
+            const parent = this.parentElement;
+            
+            // تبديل الكلاس للعنصر المفتوح
+            parent.classList.toggle('active');
+            
+            // تدوير السهم الخاص بهذا العنصر فقط
+            const arrow = this.querySelector('.dropdown-arrow');
+            if (parent.classList.contains('active')) {
+                arrow.style.transform = 'rotate(180deg)';
+            } else {
+                arrow.style.transform = 'rotate(0deg)';
+            }
+        }
+    });
+});

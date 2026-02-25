@@ -143,7 +143,11 @@ function get_social_media($platform = null) {
 error_reporting(E_ALL);
 ini_set('display_errors', 0); // لا تعرض الأخطاء للمستخدمين
 ini_set('log_errors', 1);
-ini_set('error_log', 'logs/error.log');
+$__logs_dir = __DIR__ . DIRECTORY_SEPARATOR . 'logs';
+if (!is_dir($__logs_dir)) {
+    mkdir($__logs_dir, 0755, true);
+}
+ini_set('error_log', $__logs_dir . DIRECTORY_SEPARATOR . 'error.log');
 
 // ============================================
 // 15. تعيين المنطقة الزمنية
@@ -155,6 +159,28 @@ date_default_timezone_set('Asia/Riyadh');
 // ============================================
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
+}
+
+if (!headers_sent()) {
+    if (defined('ENABLE_SECURITY_HEADERS') && ENABLE_SECURITY_HEADERS) {
+        header('X-Content-Type-Options: nosniff');
+        header('X-Frame-Options: SAMEORIGIN');
+        header('Referrer-Policy: strict-origin-when-cross-origin');
+        header('Permissions-Policy: geolocation=(), microphone=(), camera=()');
+    }
+
+    if (defined('ENABLE_CACHE') && ENABLE_CACHE && isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD'] === 'GET') {
+        header('Cache-Control: private, max-age=' . (defined('CACHE_DURATION') ? (int)CACHE_DURATION : 0));
+        header('Expires: ' . gmdate('D, d M Y H:i:s', time() + (defined('CACHE_DURATION') ? (int)CACHE_DURATION : 0)) . ' GMT');
+    }
+}
+
+if (defined('ENABLE_COMPRESSION') && ENABLE_COMPRESSION) {
+    if (!headers_sent() && !ini_get('zlib.output_compression') && extension_loaded('zlib') && ob_get_level() === 0) {
+        ob_start('ob_gzhandler');
+    } elseif (ob_get_level() === 0) {
+        ob_start();
+    }
 }
 
 // ============================================

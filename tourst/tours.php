@@ -155,7 +155,7 @@ $tours = [
                     </div>
                     <div class="tour-content">
                         <p class="tour-title"><?php echo $tour['title']; ?></p>
-                        <form  class='subpo'action="tourdetails.php" method="post" target="-blank">
+                        <form class="subpo" action="tourdetails.php" method="post" target="_blank">
                         <button type="submit" class="btn-explore1">التفاصيــل</button></form>
                     </div>
                 </div>

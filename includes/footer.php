@@ -79,23 +79,33 @@
 
 
 <script>
-    function(event) {
-  var $this = $(this),
-    method = $this.data('method'),
-    message = $this.data('confirm');
+    document.addEventListener('click', function(event) {
+      if (typeof window.$ === 'undefined' || typeof window.pub === 'undefined') {
+        return;
+      }
 
-  if (method === undefined && message === undefined) {
-    return true;
-  }
+      var $target = window.$(event.target);
+      var $this = $target.closest('[data-method], [data-confirm]');
+      if (!$this.length) {
+        return;
+      }
 
-  if (message !== undefined) {
-    $.proxy(pub.confirm, this)(message, function() {
-      pub.handleAction($this, event);
-    });
-  } else {
-    pub.handleAction($this, event);
-  }
-  event.stopImmediatePropagation();
-  return false;
-}
+      var method = $this.data('method');
+      var message = $this.data('confirm');
+
+      if (method === undefined && message === undefined) {
+        return;
+      }
+
+      if (message !== undefined) {
+        window.$.proxy(window.pub.confirm, $this.get(0))(message, function() {
+          window.pub.handleAction($this, event);
+        });
+      } else {
+        window.pub.handleAction($this, event);
+      }
+
+      event.stopImmediatePropagation();
+      event.preventDefault();
+    }, true);
 </script>

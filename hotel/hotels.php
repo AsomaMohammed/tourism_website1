@@ -212,7 +212,7 @@ function renderStars($rating, $interactive = false) {
            
         </ul>
     </div>
-            <button class="filter-btn"</button>
+            <button class="filter-btn"></button>
 
         </div>
     

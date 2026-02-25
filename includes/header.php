@@ -1,8 +1,56 @@
 <header class="header" dir="rtl">
-    <div class="space">
+    
+    <div class="header-gradient-bar">
+       <div class="top-bar-container">
+        
+        <div class="top-left-side">
+            <div class="top-item">
+               <i class="fas fa-phone"></i> <span>   123 456 7890 (100+)</span>
+            </div>
+            <div class="top-item">
+                <i class="fas fa-map-marker-alt"></i> <span> 2903Avenue Z, Brooklyn, NY, USA </span>
+            </div>
+            <div class="top-item">
+               <i class="fas fa-envelope"></i> <span>  info@housekey.com</span>
+            </div>
+             <div class="social-list ">
+
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+            </div>
+        </div>
+
+        <div class="top-right-side">
+           
+     <div class="top-item has-dropdown1">
+    <div class="dropdown-trigger">
+         <i class="fas fa-chevron-down" style="font-size: 0.7rem; margin-right: 5px;"> USD</i>
+    </div>
+    <ul class="top-dropdown-menu">
+        <li><a href="#">USD - Dollar</a></li>
+        <li><a href="#">SAR - Rial</a></li>
+        <li><a href="#">MYR - Ringgit</a></li>
+    </ul>
+</div>
+
+<div class="top-item has-dropdown1">
+    <div class="dropdown-trigger">
+       🇸🇦 العربية <i class="fas fa-chevron-down"></i> </div>
+    <ul class="top-dropdown-menu">
+        <li><a href="#">🇬🇧 ENGLISH</a></li>
+        <li><a href="#">🇫🇷 French</a></li>
+    </ul>
+</div>
+<div class="top-item">
+                <a href="#"> <i class="fas fa-user"></i> ACCOUNT  <i class="fas fa-chevron-down"></i></a>
+            </div>
+        </div>
+
 
     </div>
-    <div class="header-gradient-bar"></div>
+    </div>
 
     <div class="header-main">
         <div class="header-content">
@@ -12,9 +60,8 @@
                 </a>
             </div>
 
-            <button class="mobile-menu-btn" id="mobile-menu-btn">
-                <i class="fas fa-bars"></i>
-            </button>
+         <button class="mobile-menu-btn" id="mobile-menu-btn">
+    <i class="fas fa-bars"></i> </button>
 
             <nav class="navbar" id="navbar">
                 <ul class="nav-menu">

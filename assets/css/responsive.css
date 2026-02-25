@@ -76,20 +76,7 @@
    ============================================ */
 @media (max-width: 1024px) {
       
-    .navbar {
-        position: fixed;
-        top: 0;
-        right: -100%; /* مخفية خارج الشاشة */
-        width: 250px;
-        height: 100vh;
-        background: #fff;
-        box-shadow: -2px 0 10px rgba(0,0,0,0.1);
-        transition: 0.3s;
-        z-index: 9999;
-        padding-top: 60px;
-    }
-
-    .navbar.active {
+       .navbar.active {
         right: 0; /* تظهر عند الضغط */
     }
 
@@ -114,15 +101,117 @@
     }
 }
 
-@media(max-width:1024px){
-    .nav-menu{flex-direction: column;
-    align-items: flex-start;}
-    .nav-link{
+
+/****      ******     ********         **/
+
+/*تعديل القائمة في الهواتف*/
+
+
+
+@media (max-width: 1024px) {
+    .navbar {
+       
+        position: fixed; /* لتثبيتها عند التمرير */
+        top: 20%;      /* تبدأ من 20% من أعلى الشاشة */
+        left: 10%;     /* مسافة جانبية */
+        right: 10%;    /* مسافة جانبية لتبدو في المنتصف */
+        width: 100%;    /* تأخذ 80% من عرض الشاشة */
+        background: #fff;
+        z-index: 1000;
+        border-radius: 8px; /* حواف دائرية اختيارية */
+        box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        max-height: 60vh;
+        overflow-y: auto;
+
+        display: none;      
+   
+        /* الجزء الخاص بحل مشكلة التحريك */
+       
+    }
+
+    .navbar.active {
+        display: block;
+    }
+.nav-link i:not(.dropdown-arrow), 
+    .nav-icon-img {
+        display: none !important; /* إخفاء أي أيقونة أو صورة داخل الرابط */
+    }
+    .nav-menu {
+        flex-direction: column;
         width: 100%;
-        padding:10px;
-        justify-content: flex-start;
+        padding: 0; /* إلغاء أي مسافات داخلية للقائمة الكبيرة */
+        gap: 0;     /* إلغاء الفراغات بين العناصر */     
+        padding: 0;
+        margin: 0;
+    
+    }
+
+    .nav-item {
+        width: 100%;
+        border-bottom: 1px solid #f0f0f0; /* خط خفيف جداً بين العناصر كما في الصورة */
+    }
+
+    .nav-link {
+   /*     padding: 12px 10px; /* تقليل المسافة (كانت سابقاً 15px أو أكثر) */
+        font-size: 14px;    /* تصغير الخط قليلاً ليتناسب مع الموبايل */
+       
+       justify-content: flex-start; /* محاذاة النص لليمين/البداية */
+               /* المسافة بين الأيقونة والنص */
+
+
+
+        display: flex;
+       /* justify-content: space-between; /* النص في جهة والسهم في جهة */
+        align-items: center;
+        padding: 12px 10px;
+        width: 100%;
+        text-align: right;
+        flex-direction: row; /* التأكد من الترتيب الأفقي */
+    }
+
+    
+
+    /* تقليل مسافات القوائم المنسدلة الفرعية */
+    .dropdown-menu {
+        background-color: #fafafa;
+        padding: 0;
+    }
+
+    .dropdown-link {
+        padding: 10px 40px; /* إزاحة أكبر لليمين لتمييزها كفرع */
+        font-size: 13px;
+        border-bottom: 1px solid #eee;
     }
 }
+
+@media (max-width: 1024px) {
+    /* تنسيق السهم الافتراضي */
+    .dropdown-arrow {
+        transition: transform 0.3s ease; /* سرعة الدوران */
+        display: inline-block;
+        margin-right: auto; /* دفع السهم لأقصى اليسار في RTL */
+        margin-left: 10px;
+    }
+
+    /* دوران السهم عند تفعيل القائمة */
+    .nav-item.active > .nav-link .dropdown-arrow {
+        transform: rotate(180deg); /* تدوير السهم 180 درجة */
+        color: #8b0803; /* تغيير لون السهم عند الفتح (اختياري) */
+    }
+
+    /* ضمان ثبات القائمة الفرعية وتنسيقها */
+    .nav-item.active > .dropdown-menu {
+        display: block !important; /* إجبار القائمة على البقاء ظاهرة */
+        max-height: 500px; /* تعيين ارتفاع أقصى للسماح بالأنيميشن */
+        opacity: 1;
+        visibility: visible;
+        transition: all 0.4s ease-in-out;
+    }
+}
+
+/*تعديل القائمة في الهواتف*/
+
+
 /*888888888888888888888888888888888888888888888888888888888888*/
 @media (max-width: 992px) {
     .destinations-grid,
@@ -369,8 +458,12 @@ z-index: 10;}
 
 @media (max-width: 768px) {
     .header-content {
-        flex-direction: column;
+        flex-direction: row;
         gap: 15px;
+    }
+    .logo-image
+    {height: 15mm;
+        z-index: 9999;
     }
     
     .main-nav ul {
