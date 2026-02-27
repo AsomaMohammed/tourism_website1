@@ -27,7 +27,7 @@
     </div>
 
     <div class="hero-image-container">
-        <img src="assets/images/heroz.png" alt="Tourism Countries" class="hero-img">
+        <img src="assets/images/heroz.jpg" alt="Tourism Countries" class="hero-img">
         
      <!--  <div class="wave-top-hero">
             <svg viewBox="0 0 1440 120" preserveAspectRatio="none" class="wave-svg">

@@ -54,7 +54,7 @@
     
     .hero-title {
         font-size: 12pt;
-        margin-bottom: 20px;
+        margin-bottom: 2px;
     }
     
     .social-icons-hero {
@@ -78,6 +78,10 @@
       
        .navbar.active {
         right: 0; /* تظهر عند الضغط */
+    }
+     .hero-title {
+  
+        margin-bottom: 2px;
     }
 
     .nav-menu {
@@ -250,14 +254,17 @@
     }
       .hero-title {
         font-size: 12pt;
-        margin-bottom: 20px;
+         
+        margin-bottom: 2px;
+    
+        
     }
    
 }
 @media (max-width: 320px) {
     .hero-title {
         font-size: 12pt;
-        margin-bottom: 20px;
+        margin-bottom: 2px;
     }
     .offer-title {
         font-size: 14px;

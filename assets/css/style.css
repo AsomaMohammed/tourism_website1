@@ -20,6 +20,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Ah-naskh-hadith';
     src: url('../fonts/Ah-naskh-hadith Regular.ttf') format('truetype');
@@ -28,6 +29,7 @@
     font-style: normal;
     font-display: swap; /* لضمان ظهور نص بديل حتى يتم تحميل الخط */
 }
+
 @font-face {
     font-family: 'ALQASSAM-EXTENDED';
     src: url('../fonts/ALQASSAM-EXTENDED.ttf') format('truetype');
@@ -313,7 +315,7 @@ img {
 }
 
 
-
+/* ============================================
 
 /* ============================================
    /* تنسيقات أساسية للهيدر */
@@ -702,7 +704,7 @@ img {
     position: relative;
     width: 100%;
     height: 90vh; /* ارتفاع مناسب للشاشات الكبيرة */
-    min-height: 720px;
+    min-height: 805px;
     overflow: hidden;
     background-color: #fff;
 }
@@ -3380,7 +3382,55 @@ area-details
 
 
 
-/**/
+/**********************************/
+
+
+/* إخفاء العناصر في الشاشات الكبيرة */
+.mobile-only-item {
+    display: none !important;
+}
+
+@media (max-width: 1024px) {
+    /* إظهار العناصر في الموبايل */
+    .mobile-only-item {
+        display: block !important;
+        background-color: #f9f9f9; /* تمييزها بلون مختلف قليلاً */
+        border-top: 2px solid #eee; /* فاصل بصري */
+    }
+
+    .navbar {
+        position: fixed;
+        top: 80px; /* يفضل أن يكون تحت اللوجو مباشرة */
+        left: 5%;
+        right: 5%;
+        width: 90%; /* لترك مسافة بسيطة من الجانبين */
+        background: #fff;
+        z-index: 1000;
+        border-radius: 8px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        max-height: 80vh;
+        overflow-y: auto;
+        display: none; 
+    }
+
+    .navbar.active {
+        display: block;
+    }
+
+    /* تنسيق النصوص داخل القائمة */
+    .nav-link {
+        padding: 15px 20px;
+        font-weight: bold;
+        color: #333;
+        border-bottom: 1px solid #f0f0f0;
+    }
+
+    /* إخفاء عناصر الـ Top Bar الأصلية في الموبايل لتجنب التكرار *
+    .header-gradient-bar {
+        display: none; 
+    }*/
+}
+/**********************************/
 
 
 

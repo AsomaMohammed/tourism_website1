@@ -26,7 +26,7 @@
            
      <div class="top-item has-dropdown1">
     <div class="dropdown-trigger">
-         <i class="fas fa-chevron-down" style="font-size: 0.7rem; margin-right: 5px;"> USD</i>
+         USD <i class="fas fa-chevron-down" style="font-size: 0.7rem; margin-right: 5px;"></i>
     </div>
     <ul class="top-dropdown-menu">
         <li><a href="#">USD - Dollar</a></li>
@@ -172,6 +172,27 @@
                             التراخيــــص
                         </a>
                     </li>
+                    
+        <li class="nav-item mobile-only-item has-dropdown">
+            <a href="#" class="nav-link">
+                <span class="nav-text">🇸🇦 العربية</span> <span class="dropdown-arrow">▼</span>
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="#" class="dropdown-link">🇬🇧 ENGLISH</a></li>
+                <li><a href="#" class="dropdown-link">🇫🇷 French</a></li>
+            </ul>
+        </li>
+
+        <li class="nav-item mobile-only-item has-dropdown">
+            <a href="#" class="nav-link">
+                <span class="nav-text">USD - Dollar</span> <span class="dropdown-arrow">▼</span>
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="#" class="dropdown-link">SAR - Rial</a></li>
+                <li><a href="#" class="dropdown-link">MYR - Ringgit</a></li>
+            </ul>
+        </li>
+  
                 </ul>
             </nav>
 
