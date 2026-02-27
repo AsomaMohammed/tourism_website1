@@ -82,7 +82,7 @@
     --font-family-title: 'Ah-naskh-hadith';
     --font-family-title2: 'SwissraCondensed-Medium', 'Cairo', 'Droid Arabic Sans',  sans-serif;
     --font-size-base: 16.25pt;
-    --font-size-large: 24px;
+    --font-size-large: 22px;
     --font-size-xlarge: 30px;
     --font-size-xxlarge: 29pt;
     
@@ -349,15 +349,17 @@ img {
     gap: 7px; /* المسافة بين الأيقونة والنص والسهم */
     white-space: nowrap; /* منع النص من النزول لسطر جديد */
     font-size: 13.5px;
-    color: var(--primary-dark);
+    color: #253873;
     text-decoration: none;
     font-weight: 500;
+    font-family: 'GEDinarTWO';
 }
 
 .nav-icon-img {
    width: 22px; /* حجم الأيقونة كما في الصورة */
     height: 22px;
     object-fit: contain;
+     color: #253873;
 }
 .dropdown-arrow{
     font-size: 9px;
@@ -376,7 +378,9 @@ img {
     font-size: 14px;
 }
 .logo-image
-    {height: 20mm;
+    {/*height: 20mm;*/
+        height: 73.748px;
+        width: 110.13px;
     }
 /* إخفاء زر الجوال في الشاشات الكبيرة */
 .mobile-menu-btn {
@@ -408,8 +412,8 @@ img {
     color: var(--white);
     background: linear-gradient(90deg, #2b3492,#6465ad 100%); 
     padding: 0;
-    width: 38mm;
-    height: 10mm;
+    width: 142.15px;
+    height: 38.31px;
     border-radius: 10px;
     text-decoration: none;
     transition: all 0.3s ease;
@@ -765,23 +769,23 @@ img {
 .social-sidebar {
     position: absolute;
     left: 20px;
-    top: 50%;
+    top: 55%;
     transform: translateY(-50%);
     z-index: 100;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
 }
 
 .social-circle {
-    width: 55px;
-    height: 55px;
+    width: 48px;
+    height: 48px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #fff;
-    font-size: 32px;
+    font-size: 30px;
     text-decoration: none;
     border: 2px solid rgba(255, 255, 255, 0.9);
     transition: all 0.3s ease;
@@ -805,18 +809,18 @@ img {
 
 /* للشاشات المتوسطة (Tablets) */
 @media (max-width: 1300px) {
-    .hero-title { font-size: 16pt;margin-bottom: 50px; }
+    .hero-title { font-size: 16pt;margin-bottom: 20px; }
 }
 @media (max-width: 992px) {
     .hero-section { height: 70vh; }
-    .hero-title { font-size: 16pt;margin-bottom: 50px; }
+    .hero-title { font-size: 16pt;margin-bottom: 20px; }
     .social-circle { width: 40px; height: 40px; font-size: 18px; }
 }
 
 /* للشاشات الصغيرة (Mobile) */
 @media (max-width: 576px) {
     .hero-section { height: 60vh; min-height: 400px; }
-    .hero-title { font-size: 12pt; bottom: 20px;margin-bottom: 10px; }
+    .hero-title { font-size: 12pt; bottom: 20px;margin-bottom: 5px; }
     .wave-bottom-hero svg { height: 120px; }
     .wave-top-hero svg { height: 50px; }
     
@@ -977,7 +981,7 @@ img {
     color: white;
    font-family: var(--font-family-main);
     padding-bottom: 10px;
-    font-size:16pt;
+    font-size:19px;
     font-weight:400;
     /*padding: 5px 10px; */
     margin-bottom: 20px;
@@ -1092,7 +1096,7 @@ img {
 
 .offer-title {
     margin-top: 10px;
-    font-size: 22px;
+    font-size: 19.06px;
     color: #ea1b1b;/*------------------------------------*/
     margin-bottom: 0;
     text-align: center;
@@ -1119,19 +1123,20 @@ img {
    /* background:linear-gradient(180deg, #1E1E9E, #6464C8);/*#4f56ff;*/
     color: var(--white);
     /*text-align: center;*/
-    padding: 6px 0;
+    padding:0;
     /*border-radius: 10px;*/
-    font-size: 14pt;
+    font-size: 14.5px;
     font-weight:100px;
     cursor: pointer;
     transition: all 0.3s ease;
     font-family: 'SwissraCondensed-Medium';
-     width: 60%; /* جعل الزر مرن بالنسبة للكارد */
-    max-width: 207px;
-    height: 45px;;
+    /* width: 60%; /* جعل الزر مرن بالنسبة للكارد */
+   width: 124px;
+    height: 40px;
     border: none;
    /* box-shadow: var(--shadow-hover);*/
       background-color: var(--primary-dark-hover);
+      
    
 }
 .btn-explore1 {
@@ -1145,14 +1150,14 @@ img {
     /*text-align: center;*/
     padding: 6px 0;
     /*border-radius: 10px;*/
-    font-size: 14pt;
+    font-size: 14.5px;
     font-weight:100px;
     cursor: pointer;
     transition: all 0.3s ease;
     font-family: var(--font-family-main);
      width: 60%; /* جعل الزر مرن بالنسبة للكارد */
-    max-width: 207px;
-    height: 45px;;
+    max-width: 124px;
+    height: 40px;
     border: none;
    /* box-shadow: var(--shadow-hover);*/
       background-color: var(--primary-dark-hover);
@@ -1236,7 +1241,7 @@ img {
             margin-right: 10px;
          /*  padding: 2px 2px 5px 10px; /* زيادة الحشوة من اليسار لإبراز الانسياب */
             font-weight: 100;
-            font-size: 24px;
+            font-size: 19px;
             
             /* السر هنا: انسياب كبير من أعلى اليسار وصغير من أعلى اليمين */
           /*  border-radius: 50px 15px 0 0 !important; */
@@ -1349,6 +1354,8 @@ img {
   background-color: #fff;
     border-radius: 15px;
     overflow: hidden;
+    height:282.11px;
+    width: 282.65px;
    
 }
 
@@ -2071,7 +2078,7 @@ font-family:'SwissraCondensed-Medium';
 }
 
 .footer-title {
-    /*font-family: 'beINNormal', sans-serif;*/
+    font-family: 'GEDinarTWO', sans-serif;
     direction: rtl;
     font-size:14pt;
     color: #fff;
@@ -2099,7 +2106,7 @@ font-family:'SwissraCondensed-Medium';
 .footer-links a {
     color: #e0e0e0;
     text-decoration: none;
-    font-size: 12pt;
+    font-size: 14px;
     transition: 0.3s;
      font-weight: 100;
      letter-spacing: 0.035px;
@@ -2203,16 +2210,17 @@ color: #ffffff;            /* لون النص أبيض */
         gap: 2px;
     }
     .tab-button {
-        margin-right: 1px;
+        
     width: 140px;
     height: 39px;
- margin-bottom: -80px;
+ margin-bottom: -6px;
  z-index: 2;}
     .tab-button.active {
     width: 150px;
     height: 40px;
-margin-bottom: -80px;
+margin-bottom: -6px;
 border-radius: 10px;
+
  }
 
 
