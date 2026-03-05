@@ -23,14 +23,14 @@ $photos = [
     
         
         <div class="section-header">
-            <h2 class="section-title">آراء العملاء</h2>
+            <h2 class="section-title" data-i18n="section-title">آراء العملاء</h2>
         </div>
         
     <div class="tabs">
         <div class="tab-controls-wrapper"> 
             <div class="tab-buttons">
-                <button class="tab-button" onclick="openTab('photos')" data-tab="photos">صورة</button>
-                <button class="tab-button active" onclick="openTab('videos')" data-tab="videos">فيديو</button>
+                <button class="tab-button" onclick="openTab('photos')" data-tab="photos" data-i18n="photos"><span>صورة</span></button>
+                <button class="tab-button active" onclick="openTab('videos')" data-tab="videos" data-i18n="videos"><span>فيديو</span></button>
                  
             </div>
             <div class="tab-bottom-bar"></div> 

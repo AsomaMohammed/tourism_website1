@@ -170,17 +170,19 @@ $categoryFilter = isset($_GET['category']) ? $_GET['category'] : '';
         <!-- Search Input -->
         <input type="text" class="filter-input"
                name="search" 
+               data-i18n-placeholder="areas.name_placeholder"
                placeholder="اسم المنطقة" 
                value="<?php echo htmlspecialchars($searchQuery); ?>">
         
         <!-- Category Select -->
       <input type="text" class="filter-input"
                name="search" 
+               data-i18n-placeholder="areas.place_placeholder"
                placeholder="المكان" 
                value="<?php echo htmlspecialchars($searchQuery); ?>">
         
         <!-- Filter Button -->
-        <button type="submit" class="filter-btn"></button><!--بحث-->
+        <button type="submit" class="filter-btn" data-i18n="tours.search">بحـــــث</button><!--بحث-->
     </form>
 </section>
 

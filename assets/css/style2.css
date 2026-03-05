@@ -157,7 +157,76 @@ img {
     padding: 0 15px;
 }
 
+html.lang-en body {
+    font-family: 'Inter', Arial, sans-serif;
+}
+html[dir="ltr"] .header-gradient-bar {
+    flex-direction: row-reverse;
+}
+html.lang-en .nav-link,
+html.lang-en .nav-link .nav-text,
+html.lang-en .nav-link span {
+    font-family: 'NimbusSans Becker L* Regular', 'Nimbus Sans', 'Inter', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+}
 
+html.lang-en .copyright,
+html[dir="ltr"] .copyright {
+    direction: rtl;
+    text-align: right;
+}
+
+html.lang-en .footer-bottom-content,
+html[dir="ltr"] .footer-bottom-content {
+    direction: rtl;
+}
+
+html.lang-en .footer,
+html[dir="ltr"] .footer {
+    direction: ltr;
+}
+
+html.lang-en .footer-content,
+html[dir="ltr"] .footer-content {
+    direction: ltr;
+}
+
+html.lang-en .footer-grid,
+html[dir="ltr"] .footer-grid {
+    direction: ltr;
+    justify-content: flex-start;
+}
+
+html.lang-en .footer-column,
+html[dir="ltr"] .footer-column {
+    text-align: left;
+}
+
+html.lang-en .footer-title,
+html.lang-en .footer-links a,
+html.lang-en .copyright,
+html.lang-en .footer-bottom,
+html[dir="ltr"] .footer-title,
+html[dir="ltr"] .footer-links a,
+html[dir="ltr"] .copyright,
+html[dir="ltr"] .footer-bottom {
+    font-family: 'NimbusSans Becker L* Regular', 'Nimbus Sans', 'Inter', Arial, sans-serif;
+    font-weight: 400;
+}
+
+
+html[dir="ltr"] .header-gradient-bar {
+    flex-direction: row-reverse;
+}
+html[dir="ltr"] .navbar,
+html[dir="ltr"] .nav-menu {
+    direction: ltr;
+}
+
+html[dir="ltr"] .nav-menu {
+    justify-content: flex-start;
+}
 /* ==========================================
    Hero Section / Banner
    ========================================== */
@@ -2911,6 +2980,7 @@ img {
         var(--gradient-color-3) 66%, 
         var(--gradient-color-4) 100%);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    color: #ffffff;
 }
 
 .header-main {
@@ -2981,9 +3051,21 @@ img {
     gap: 10px;
     font-size: 14px;
 }
-.logo-image
-    {height: 20mm;
-    }
+/* افتراضياً: إخفاء شعار الإنجليزية وإظهار العربي */
+.logo-en { display: none; }
+.logo-ar { display: block; }
+
+/* عندما يكون اتجاه الصفحة يساراً (اللغات الأجنبية) */
+html[dir="ltr"] .logo-ar { display: none; }
+html[dir="ltr"] .logo-en { display: block;
+ }
+
+/* تنسيقات الشعار المشتركة */
+.logo-image {
+    height: 68.805px;
+    width: 118.7885px;
+    object-fit: contain;
+}
 /* إخفاء زر الجوال في الشاشات الكبيرة */
 .mobile-menu-btn {
     display: none;
@@ -3689,6 +3771,11 @@ img {
     .tabs-header {
 margin-bottom: -2px;}
     
+}
+
+/* إخفاء العناصر في الشاشات الكبيرة */
+.mobile-only-item {
+    display: none !important;
 }
 /**********************************************/
 @media (max-width: 1024px) {

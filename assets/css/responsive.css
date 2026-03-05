@@ -75,6 +75,14 @@
    تنسيقات الشاشات الصغيرة (Mobile Responsive)
    ============================================ */
 @media (max-width: 1024px) {
+    html[dir="ltr"] .navbar {
+    flex-direction: row-reverse;
+     
+    
+}   html[dir="ltr"] .navbar.active {
+   
+    width: 100%;
+}
       
        .navbar.active {
         right: 0; /* تظهر عند الضغط */
@@ -112,26 +120,25 @@
 
 
 
-@media (max-width: 1024px) {
+
+    @media (max-width: 1024px) {
     .navbar {
-       
-        position: fixed; /* لتثبيتها عند التمرير */
-        top: 20%;      /* تبدأ من 20% من أعلى الشاشة */
-        left: 10%;     /* مسافة جانبية */
-        right: 10%;    /* مسافة جانبية لتبدو في المنتصف */
-        width: 100%;    /* تأخذ 80% من عرض الشاشة */
+        position: fixed;
+        top: 20%; 
+        /* نضبط القيم الافتراضية لتكون قابلة للإلغاء */
+        left: 0;
+        right: 0;
+        width: 100%; /* العرض الكامل */
         background: #fff;
         z-index: 1000;
-        border-radius: 8px; /* حواف دائرية اختيارية */
+        border-radius: 0; /* نلغي الحواف الدائرية لتبدو كشريط كامل العرض */
         box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-        max-height: 60vh;
+        max-height: 80vh; /* زيادة الارتفاع قليلاً لتناسب المحتوى */
         overflow-y: auto;
+        display: none; 
+    }
 
-        display: none;      
-   
-        /* الجزء الخاص بحل مشكلة التحريك */
-       
-    }.testimonials-grid {
+   .testimonials-grid {
         grid-template-columns: repeat(3, 1fr); /* 3 كروت في الصف */
     }
     .navbar.active {
@@ -303,6 +310,11 @@
     
     .submenu {
         padding-right: 20px; /* إزاحة للمدن في الموبايل لتمييزها */
+    }
+
+    html[dir="ltr"] .submenu {
+        padding-right: 0;
+        padding-left: 20px;
     }
 }
 

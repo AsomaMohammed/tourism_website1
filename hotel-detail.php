@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="assets/css/responsive2.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<script scr="https://kit.fontawsome.com/yourcode.js"></script>
 </head>
 <body>
     <?php include 'includes/header.php'; ?>
@@ -22,8 +21,8 @@
     <?php include 'hotel/hotel-details.php'; ?>
     
     <?php include 'includes/footer.php'; ?>
-   <script src="assets/js/main2.js"></script>
-   <script src="assets/js/main.js"></script>
-    <script src="assets/js/script.js"></script>
+   <script src="assets/js/main2.js" defer></script>
+   <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/script.js" defer></script>
 </body>
 </html>

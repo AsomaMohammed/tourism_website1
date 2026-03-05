@@ -1,5 +1,14 @@
 <?php
-$page_title = "الفنادق في كوالالمبور";
+$page_title = "الفنادق في ";
+
+$cityKey = isset($_GET['city']) ? strtolower(trim((string)$_GET['city'])) : 'kuala-lumpur';
+$cities = [
+    'kuala-lumpur' => ['ar' => 'كوالالمبور', 'en' => 'Kuala Lumpur'],
+    'jakarta' => ['ar' => 'جاكرتا', 'en' => 'Jakarta'],
+    'bangkok' => ['ar' => 'بانكوك', 'en' => 'Bangkok'],
+];
+
+$city = $cities[$cityKey] ?? $cities['kuala-lumpur'];
 
 
 // بيانات الفنادق للعرض
@@ -166,6 +175,7 @@ $hotels = [
         'badge_class' => 'new',
         'image' => 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=400'
     ]
+    
 ];
 
 // دالة لعرض النجوم
@@ -188,7 +198,9 @@ function renderStars($rating, $interactive = false) {
 <!-- TITLE -->
 <section class="tours-title-section">
     <div class="title-box">
-فنــــــــــــــــــــــــــــــــــــــــادق في كوالالمبور    </div>
+        <span data-i18n="hotels.title-box">فنــــــــــــــــــــــــــــــــــــــــادق في </span>
+        <span class="title-city" data-city-ar="<?php echo htmlspecialchars($city['ar'], ENT_QUOTES, 'UTF-8'); ?>" data-city-en="<?php echo htmlspecialchars($city['en'], ENT_QUOTES, 'UTF-8'); ?>"><?php echo htmlspecialchars($city['ar'], ENT_QUOTES, 'UTF-8'); ?></span>
+    </div>
 </section>
 
 <!-- FILTER -->
@@ -196,11 +208,11 @@ function renderStars($rating, $interactive = false) {
     
         <div class="filter-wrapper">
 
-            <input type="text" class="filter-input"  placeholder="اسم الفندق">
-            <input type="text" class="filter-input" placeholder="المدينة" >
+            <input type="text" class="filter-input" data-i18n-placeholder="hotels.name_placeholder" placeholder="اسم الفندق ">
+            <input type="text" class="filter-input" data-i18n-placeholder="hotels.city_placeholder" placeholder="المدينة" >
     <div class="custom-dropdown2" id="ratingDropdown">
         <div class="dropdown-header">
-            <span id="selectedRatingText">التصنيف</span>
+            <span id="selectedRatingText" data-i18n="rating">التصنيف</span>
             <span class="arrow2">▼</span>
         </div>
         <ul class="dropdown-list">
@@ -212,7 +224,7 @@ function renderStars($rating, $interactive = false) {
            
         </ul>
     </div>
-            <button class="filter-btn"></button>
+            <button class="filter-btn" data-i18n="filter-btn"> بحـــــث</button>
 
         </div>
     
@@ -264,7 +276,7 @@ function renderStars($rating, $interactive = false) {
                     <h3 class="hotel-name-ar"><?php echo $hotel['name_ar']; ?></h3>
                     <p class="hotel-name-en"><?php echo $hotel['name_en']; ?></p>
                     
-                   <div class="button-con"><button class="btn-explore1"><a href="hotel-detail.php?id=<?php echo $hotel['id']; ?>">التفاصيل</a> </button></div>
+                   <div class="button-con"><button class="btn-explore1"><a href="hotel-detail.php?id=<?php echo $hotel['id']; ?>" data-i18n="btn-explore">التفاصيل</a> </button></div>
                 </div>
             </div>
             <?php endforeach; ?>

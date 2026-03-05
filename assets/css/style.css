@@ -7,6 +7,7 @@
    استيراد الخطوط
    ============================================ */
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');   
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 /* Font Faces */
 @font-face {
     font-family: 'SwissraCondensed-Medium';
@@ -123,10 +124,84 @@ body {
     background-color: var(--white);
 }
 
+html.lang-en body {
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+html.lang-en .nav-link,
+html.lang-en .nav-link .nav-text,
+html.lang-en .nav-link span {
+    font-family: 'NimbusSans Becker L* Regular', 'Nimbus Sans', 'Inter', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+
+
+html.lang-en .footer,
+html[dir="ltr"] .footer {
+    direction: ltr;
+}
+
+html.lang-en .footer-content,
+html[dir="ltr"] .footer-content {
+    direction: ltr;
+}
+
+html.lang-en .footer-grid,
+html[dir="ltr"] .footer-grid {
+    direction: ltr;
+    justify-content: flex-start;
+}
+
+html.lang-en .footer-column,
+html[dir="ltr"] .footer-column {
+    text-align: left;
+}
+
+html.lang-en .footer-title,
+html.lang-en .footer-links a,
+html.lang-en .copyright,
+html.lang-en .footer-bottom,
+html[dir="ltr"] .footer-title,
+html[dir="ltr"] .footer-links a,
+html[dir="ltr"] .copyright,
+html[dir="ltr"] .footer-bottom {
+    font-family: 'NimbusSans Becker L* Regular', 'Nimbus Sans', 'Inter', Arial, sans-serif;
+    font-weight: 400;
+}
+
+html.lang-en .copyright,
+html[dir="ltr"] .copyright {
+    direction: rtl;
+    text-align: right;
+}
+
+html.lang-en .footer-bottom-content,
+html[dir="ltr"] .footer-bottom-content {
+    direction: rtl;
+}
+
 a {
     text-decoration: none;
     color: inherit;
     transition: all 0.3s ease;
+}
+
+html[dir="ltr"] .submenu {
+    left: 100%;
+    right: auto;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
+}
+
+html[dir="ltr"] .dropdown-link,
+html[dir="ltr"] .submenu li a {
+    text-align: left;
+}
+
+html[dir="ltr"] .dropdown-menu::before {
+    left: 20px;
+    right: auto;
 }
 
 img {
@@ -152,6 +227,11 @@ img {
     position: sticky;
     top: 0;
     z-index: 1000;
+}
+
+html[dir="ltr"] .dropdown-menu {
+    left: 0;
+    right: auto;
 }
 
 /* شريط الألوان المتدرج العلوي */
@@ -193,6 +273,10 @@ img {
     height: 100%;
 }
 
+html[dir="ltr"] .header-gradient-bar {
+    flex-direction: row-reverse;
+}
+
 /* تنسيق كل عنصر على حدة مع الخط الفاصل */
 .top-item {
     display: flex;
@@ -208,6 +292,22 @@ img {
     font-weight: 500; /* ليعطي سماكة خفيفة واضحة */
     letter-spacing: 0.5px; /* مسافة بسيطة بين الحروف اللاتينية لزيادة الوضوح */
     color: #ffffff;
+}
+
+.lang-toggle {
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    background: transparent;
+    color: #ffffff;
+    font: inherit;
+    padding: 6px 12px;
+    border-radius: 999px;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.lang-toggle:focus {
+    outline: 2px solid rgba(255, 255, 255, 0.9);
+    outline-offset: 2px;
 }
 
 /* أيقونات التواصل الاجتماعي */
@@ -334,12 +434,23 @@ img {
 }
 
 
+
 /* القائمة في الشاشات الكبيرة */
 .nav-menu {
     display: flex;
     list-style: none;
     gap: 15px; /* المسافة بين كل قسم والآخر */
     align-items: center;
+}
+
+
+html[dir="ltr"] .navbar,
+html[dir="ltr"] .nav-menu {
+    direction: ltr;
+}
+
+html[dir="ltr"] .nav-menu {
+    justify-content: flex-start;
 }
 
 .nav-link {
@@ -377,11 +488,21 @@ img {
     gap: 10px;
     font-size: 14px;
 }
-.logo-image
-    {/*height: 20mm;*/
-        height: 73.748px;
-        width: 110.13px;
-    }
+/* افتراضياً: إخفاء شعار الإنجليزية وإظهار العربي */
+.logo-en { display: none; }
+.logo-ar { display: block; }
+
+/* عندما يكون اتجاه الصفحة يساراً (اللغات الأجنبية) */
+html[dir="ltr"] .logo-ar { display: none; }
+html[dir="ltr"] .logo-en { display: block;
+ }
+
+/* تنسيقات الشعار المشتركة */
+.logo-image {
+    height: 68.805px;
+    width: 118.7885px;
+    object-fit: contain;
+}
 /* إخفاء زر الجوال في الشاشات الكبيرة */
 .mobile-menu-btn {
     display: none;
@@ -764,6 +885,11 @@ img {
     margin: 0;
     font-family:'Ah-naskh-hadith'; /* يفضل استخدام خط ناصح */
 }
+html[dir="ltr"] .social-sidebar,
+ html[dir="ltr"] .social-circle{
+direction: ltr;  
+}
+
 
 /* --- شريط التواصل الاجتماعي --- */
 .social-sidebar {
@@ -775,6 +901,11 @@ img {
     display: flex;
     flex-direction: column;
     gap: 5px;
+}
+
+html[dir="ltr"] .social-sidebar {
+    left: auto;
+    right: 20px;
 }
 
 .social-circle {
@@ -827,6 +958,11 @@ img {
     .social-sidebar {
         left: 10px;
         gap: 2px;
+    }
+
+    html[dir="ltr"] .social-sidebar {
+        left: auto;
+        right: 10px;
     }
     .social-circle {
         width: 20px;
@@ -1114,6 +1250,16 @@ img {
     font-family: var(--font-family-main);
 }
 
+html[dir="ltr"] .btn-explore,btn-explore1 {
+   font-family: 'Ah-naskh-hadith';
+   font-size: 9px;
+
+}
+html[dir="ltr"] .btn-explore1 {
+   font-family: 'Ah-naskh-hadith';
+   font-size: 9px;
+
+}
 .btn-explore {
        background-image: url('../images/de-bu.png');
     /*background:linear-gradient(90deg, #2B3492,#6465AD  100%) ;*/
@@ -1231,7 +1377,44 @@ img {
    margin-left: -4px; position: relative; 
 }
 
+ /*english language */
+
+html[dir="ltr"] .tab-button{
+background-image: url('../images/gray1.png');
+text-align: left;
+}
+html[dir="ltr"] .tab-button.active {
+margin-left:-60px;
+background-image: url('../images/green.png');
+}
+
+html[dir="ltr"] .tab-button:first-child.active {
+   margin-right:0; 
+
+}
+html[dir="ltr"] .tab-button:last-child.active {
+     margin-right:10px; 
+}
+html[dir="ltr"] .tab-button:last-child {
+
+     margin-left: -80px;
+      z-index: 0;
+}
+html[dir="ltr"] .tab-button:first-child {
+ 
+      margin-left: 0;
+}
+
+
+ /*english language */
+
+
+
+
+
+
 .tab-button {
+    
     width: 200px;
     height: 39px;
      border: none !important;
@@ -1513,17 +1696,16 @@ font-family:'SwissraCondensed-Medium';
 .tours-hero-section{
     position: relative;
     width: 100%;
-    height: 470px;
+    height: 492px;
     overflow: hidden;
 }
 
 .tours-hero-img{
-       object-fit: cover;
-        position: absolute;
-    top: 0;
-    left: 0;
+       object-fit:contain;
+        position: relative;
+    
     width: 100%;
-    height: 100%;
+    height: auto;
     z-index: 1;
     box-sizing: border-box;
 
@@ -1572,6 +1754,14 @@ font-family:'SwissraCondensed-Medium';
     position: relative;
     margin-top: 0;
     padding:  0;
+}
+html[dir="ltr"] .filter-wrapper {
+    direction: ltr;
+    justify-content: flex-start;
+}
+html[dir="ltr"] .filter-wrapper input {
+    text-align: left;
+    padding: 0 15px;
 }
 
 .filter-wrapper{
@@ -1633,6 +1823,8 @@ font-family:'SwissraCondensed-Medium';
  
     /*border: 1px solid #ccc;*/
     font-size:21px;
+    padding: 0 15px; /* الرقم الثاني 15px هو المسافة من اليمين واليسار */
+    text-align: right; /* لضمان بقاء الـ placeholder جهة اليمين في العربية */
    /* background:linear-gradient(180deg,#999999,#fcfafa ,#A0A0A0  );;*/
   /* box-shadow: inset 0 1px 2px rgba(253, 250, 250, 0.1);*/
 
@@ -1651,20 +1843,28 @@ font-family:'SwissraCondensed-Medium';
 
 .filter-btn{
      background-image: url('../images/ser.png');
+
        background-position:center;
             background-repeat:no-repeat;
-            background-size:contain;
-            border: none;
-  
-    height:1.1cm;
-    width:4.5cm;
+            background-size:cover;
+        border:none;
+            font-family: 'SwissraCondensed-Medium';
+            color: #fff;
+    font-size: 22px;
+  font-weight: normal;
+    width: 181.92px;
+    height:41.76px;
+ cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
    /* background: #F3AE1C;
      border: 42.994pt solid linear-gradient(to bottom,#A0A0A0 ,#FFFFFF ,#ABABAB );
     border-radius: 8px;
     color: #fff;
     font-size: 21pt;
     font-weight: bold;
-    font-family: 'SwissraCondensed-Medium';
+    
     cursor: pointer;
     white-space: nowrap;*/
 }
@@ -1738,7 +1938,7 @@ font-family:'SwissraCondensed-Medium';
     font-weight:200px;
     margin-bottom: 20px;
     line-height: 1.4;
-    font-family: 'GE Dinar Two';
+    font-family: 'GEDinarTWO';
     text-align: center;
 }
 
@@ -1788,6 +1988,11 @@ font-family:'SwissraCondensed-Medium';
 }
 /*****************/
 /* الترقيم */
+
+
+html[dir="ltr"] .pagination {
+   direction: rtl;
+}
 .pagination {
     display: flex;
     justify-content: center;
@@ -3018,6 +3223,11 @@ area-details
 
 }
 
+html[dir="ltr"] .dropdown-list li {
+    text-align: left;
+    justify-content: flex-start;
+    direction: ltr; /* تظل كما هي لضمان ترتيب النجوم */
+}
 /* تنسيق القائمة المنسدلة نفسها */
 .dropdown-list {
     position: absolute;
@@ -3031,16 +3241,38 @@ area-details
     box-shadow: 0 4px 5px rgba(0,0,0,0.2);
 }
 
-/* تنسيق عناصر القائمة */
+/* تنسيق عناصر القائمة *
 .dropdown-list li {
     padding: 10px 15px;
     border-bottom: 1px solid #eee;
-    /*color: #f1c40f;  لون النجوم الذهبي */
+    /*color: #f1c40f;  لون النجوم الذهبي *
     transition: background 0.2s;
     text-align: right;
     list-style: none;
 }
+/* تنسيق عناصر القائمة المنسدلة */
+.dropdown-list li {
+    /* تصغير الحشو العلوي والسفلي من 10px إلى 5px مثلاً */
+    padding: 5px 15px; 
+    
+    /* تقليل ارتفاع السطر لتقريب النصوص من بعضها */
+    line-height: 1.2; 
+    
+    border-bottom: 1px solid #eee;
+    transition: background 0.2s;
+    list-style: none;
+    
+    /* الحفاظ على ترتيب النجوم من اليسار كما طلبت سابقاً */
+    display: flex;
+    direction: ltr;
+    justify-content: flex-start;
+    align-items: center; /* لضمان توسط المحتوى عمودياً بعد التصغير */
+}
 
+/* إزالة البرواز السفلي لآخر عنصر لتحسين الشكل العام */
+.dropdown-list li:last-child {
+    border-bottom: none;
+}
 .dropdown-list li:hover {
     background-color: #f8f9fa;
 }
@@ -3302,25 +3534,31 @@ area-details
 
 /* Hotel Rating Stars */
 .hotel-rating {
+margin-top: 5px;
     display: flex;
     justify-content: center;
+    align-items: center; /* يضمن محاذاة النجوم عمودياً في نفس السطر */
     gap: 2px;
-    margin-bottom: -25px;
+    margin-bottom: 10px; /* تم تعديل القيمة السالبة لمنع التداخل مع العناصر الأخرى */
     direction: ltr;
 }
 
 .hotel-rating .star {
+    display: inline-block; /* يضمن أن تعامل النجوم كعناصر في سطر واحد */
     font-size: 35px;
     color: var(--gray);
+    line-height: 1; /* يزيل أي مسافات إضافية ناتجة عن ارتفاع السطر الافتراضي */
 }
 
-.hotel-rating .star.filled {margin-top: 8px;
-     background-image: url('../images/star.png');
-    /*background:linear-gradient(90deg, #2B3492,#6465AD  100%) ;*/
-    background-position:unset;
-            background-repeat:no-repeat;
-            background-size:contain;
+.hotel-rating .star.filled {
+    /* أزلنا margin-top: 8px لكي لا تنزل النجوم الملونة عن مستوى النجوم الرمادية */
+    background-image: url('../images/star.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
     color: transparent;
+    width: 35px; /* يفضل تحديد عرض مساوٍ لحجم الخط لضمان ظهور صورة الخلفية */
+    height: 35px;
 }
 
 .hotel-name-ar {

@@ -14,7 +14,7 @@
        
             <div class="footer-grid">
                 <div class="footer-column">
-                    <h3 class="footer-title">المناطق السياحية</h3>
+                    <h3 class="footer-title" data-i18n="footer.areas">المناطق السياحية</h3>
                     <ul class="footer-links">
                         <li><a href="#">ماليزيا</a></li>
                         <li><a href="#">إندونيسيا</a></li>
@@ -26,7 +26,7 @@
                 </div>
                 
                 <div class="footer-column">
-                    <h3 class="footer-title">العروض السياحية</h3>
+                    <h3 class="footer-title" data-i18n="footer.offers">العروض السياحية</h3>
                     <ul class="footer-links">
                         <li><a href="#">ماليزيا</a></li>
                         <li><a href="#">إندونيسيا</a></li>

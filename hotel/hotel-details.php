@@ -514,12 +514,12 @@ function renderStars($rating) {
                                 
                                 <form class="review-form">
                                     <div class="form-group">
-                                        <input type="text" placeholder="ادخل اسمك" class="form-input">
+                                        <input type="text" class="form-input" data-i18n-placeholder="reviews.name_placeholder" placeholder="ادخل اسمك">
                                     </div>
                                     <div class="form-group">
-                                        <textarea placeholder="شاركنا تعليقك" class="form-textarea" rows="5"></textarea>
+                                        <textarea class="form-textarea" data-i18n-placeholder="reviews.comment_placeholder" placeholder="شاركنا تعليقك" rows="5"></textarea>
                                     </div>
-                                    <button type="submit" class="submit-btn"></button>
+                                    <button type="submit" class="submit-btn" data-i18n="reviews.submit"></button>
                                 </form>
                                
                             </div>

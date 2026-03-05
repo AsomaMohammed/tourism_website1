@@ -132,10 +132,10 @@ $tours = [
     
         <div class="filter-wrapper">
 
-            <input type="text"class="filter-input"  placeholder="البلد">
-            <input type="text"class="filter-input"  placeholder="المدينة" >
+            <input type="text" class="filter-input" data-i18n-placeholder="tours.country_placeholder" placeholder="البلد">
+            <input type="text" class="filter-input" data-i18n-placeholder="tours.city_placeholder" placeholder="المدينة" >
 
-            <button class="filter-btn"></button><!--بحث-->
+            <button class="filter-btn" data-i18n="tours.search">بحـــــث</button><!--بحث-->
 
         </div>
     

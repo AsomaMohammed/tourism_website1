@@ -799,6 +799,7 @@ const tabs = document.querySelectorAll('.tab-btn');
 const indicator = document.querySelector('.tab-indicator');
 
 function moveIndicator(el) {
+    if (!el || !indicator || !el.parentElement) return;
     const rect = el.getBoundingClientRect();
     const parentRect = el.parentElement.getBoundingClientRect();
 
@@ -806,13 +807,15 @@ function moveIndicator(el) {
     indicator.style.left = (rect.left - parentRect.left) + 'px';
 }
 
-tabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-        tabs.forEach(t => t.classList.remove('active'));
-        tab.classList.add('active');
-        moveIndicator(tab);
+if (tabs.length && indicator) {
+    tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+            tabs.forEach(t => t.classList.remove('active'));
+            tab.classList.add('active');
+            moveIndicator(tab);
+        });
     });
-});
+}
 
 /* تشغيل المؤشر عند التحميل */
 window.addEventListener('load', () => {
