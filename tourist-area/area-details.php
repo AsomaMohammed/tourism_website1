@@ -134,9 +134,9 @@ $areaData = [
                 <div class="tabs-container hotel-tabs">
                     <div class="tabs-header">
                 <button  ></button>
-                <button class="tab-btn active" data-tab="videos">فيديو و صور</button>
-                 <button class="tab-btn" data-tab="details">تفاصيل عن المناطــق</button>
-                 <button class="tab-btn" data-tab="location">الموقــع</button>
+                <button class="tab-btn active" data-tab="videos" data-i18n="videosphotos">فيديو و صور</button>
+                 <button class="tab-btn" data-tab="details" data-i18n="descrip">تفاصيل عن المناطــق</button>
+                 <button class="tab-btn" data-tab="location" data-i18n="loc">الموقــع</button>
             </div>
           
                     <!-- Tab Content: image and video -->

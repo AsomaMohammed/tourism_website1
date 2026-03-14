@@ -11,3 +11,604 @@
 [05-Mar-2026 14:48:02 Asia/Riyadh] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 216
 [05-Mar-2026 14:48:02 Asia/Riyadh] PHP Warning:  Undefined variable $hotels in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 257
 [05-Mar-2026 14:48:02 Asia/Riyadh] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 257
+[06-Mar-2026 10:53:36 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 10:53:36 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 10:53:36 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 10:53:36 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 10:55:19 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 10:55:19 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 10:55:19 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 10:55:19 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 10:55:20 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 10:55:20 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 10:55:37 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 10:55:38 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 10:55:38 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 10:56:16 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 10:56:17 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 10:56:33 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 10:56:38 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 10:56:38 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 10:56:39 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 10:57:33 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 10:58:17 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\hotel.php(24): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 10:58:26 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\hotel.php(24): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:01:01 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\hotel.php(24): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:01:01 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\hotel.php(24): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:01:02 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\hotel.php(24): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:01:02 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\hotel.php(24): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:03:18 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:05:15 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:09:35 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:09:37 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:09:41 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:09:42 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:09:42 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:09:42 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:10:17 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\Tours_P.php(24): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:10:26 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\Tours_P.php(24): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:10:28 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\Tours_P.php(24): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:10:28 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\Tours_P.php(24): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:10:28 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\Tours_P.php(24): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:10:28 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\Tours_P.php(24): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:11:28 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:11:30 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:11:30 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:11:30 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:11:31 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:11:31 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:11:31 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:15:16 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:17:23 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:17:23 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:17:23 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:17:24 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:17:38 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:17:39 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:17:40 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:17:41 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:20:24 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:20:26 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:20:28 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:20:29 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:20:29 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:20:30 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:20:30 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:20:31 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:20:31 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:20:31 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:21:13 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:21:13 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:21:14 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:21:15 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:21:15 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:21:19 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:21:19 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:21:19 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:21:19 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:21:20 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:21:20 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:21:20 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:21:20 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:21:53 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:23:49 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:23:51 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:23:51 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:23:52 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:23:52 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:23:52 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:23:53 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:23:54 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:23:54 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:23:54 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:23:54 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:23:55 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:24:04 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:27:53 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:27:54 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[06-Mar-2026 11:27:54 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\websiteproject\includes\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\websiteproject\index.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\websiteproject\includes\footer.php on line 48
+[13-Mar-2026 11:50:27 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:27 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:27 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:27 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:27 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:27 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:27 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:27 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:27 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:27 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:27 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:27 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:27 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:27 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:27 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:27 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:27 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:27 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:28 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:28 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:28 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:28 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:28 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:28 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:28 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:28 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:28 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:28 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:28 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:28 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:28 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:28 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:28 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:28 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:28 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:28 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:50:43 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 268
+[13-Mar-2026 11:53:55 Asia/Riyadh] PHP Warning:  Undefined variable $hotels in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 2
+[13-Mar-2026 11:53:55 Asia/Riyadh] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 2
+[13-Mar-2026 11:53:55 Asia/Riyadh] PHP Warning:  Undefined variable $hotels in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 2
+[13-Mar-2026 11:53:55 Asia/Riyadh] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 2
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 11:56:10 Asia/Riyadh] PHP Warning:  Undefined variable $current_lang in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 265
+[13-Mar-2026 12:09:06 Asia/Riyadh] PHP Parse error:  syntax error, unexpected single-quoted string "badge_class", expecting "]" in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 23
+[13-Mar-2026 12:09:07 Asia/Riyadh] PHP Parse error:  syntax error, unexpected single-quoted string "badge_class", expecting "]" in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 23
+[13-Mar-2026 12:09:15 Asia/Riyadh] PHP Parse error:  syntax error, unexpected single-quoted string "badge_class", expecting "]" in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 23
+[13-Mar-2026 12:09:16 Asia/Riyadh] PHP Parse error:  syntax error, unexpected single-quoted string "badge_class", expecting "]" in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 23
+[13-Mar-2026 12:09:16 Asia/Riyadh] PHP Parse error:  syntax error, unexpected single-quoted string "badge_class", expecting "]" in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 23
+[13-Mar-2026 12:09:17 Asia/Riyadh] PHP Parse error:  syntax error, unexpected single-quoted string "badge_class", expecting "]" in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 23
+[13-Mar-2026 12:09:20 Asia/Riyadh] PHP Parse error:  syntax error, unexpected single-quoted string "badge_class", expecting "]" in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 23
+[13-Mar-2026 12:09:20 Asia/Riyadh] PHP Parse error:  syntax error, unexpected single-quoted string "badge_class", expecting "]" in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 23
+[13-Mar-2026 12:09:20 Asia/Riyadh] PHP Parse error:  syntax error, unexpected single-quoted string "badge_class", expecting "]" in C:\xampp\htdocs\websiteproject\hotel\hotels.php on line 23

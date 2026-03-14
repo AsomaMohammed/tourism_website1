@@ -30,7 +30,7 @@ $offers = [
 
 <section class="best-offers-section" id="offers">
    
-        <h2 class="section-title" data-i18n="section-title1">أفضل العروض السياحية</h2>
+        <h2 class="section-title" data-i18n="section-title1"><!--أفضل العروض السياحية --></h2>
         
         <div class="offers-grid">
             <?php foreach ($offers as $offer): ?>

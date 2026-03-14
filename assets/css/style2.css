@@ -8,18 +8,21 @@
     src: url('../fonts/kalingab.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Adobe-Arabic';
     src: url('../fonts/Adobe Arabic Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: 'GEDinarTWO';
     src: url('../fonts/GEDinarTWOMedium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -51,6 +54,7 @@
     src: url('../fonts/JF Flat Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -59,12 +63,14 @@
     /* هذا النطاق يخبر المتصفح أن يستخدم هذا الخط للأرقام والحروف الإنجليزية فقط */
     unicode-range: U+0000-007F, U+00A0-00FF;
     font-weight: bold;
+    font-display: swap;
 }
 @font-face {
     font-family: 'ALQASSAM-EXTENDED';
-    src: url('../fonts/ALQASSAM-EXTENDED.ttf') format('truetype');
+    src: url('../fonts/Al-Qassam-Extended.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -72,6 +78,7 @@
     src: url('../fonts/GEDinarTWOMedium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -79,6 +86,7 @@
     src: url('../fonts/kalinga-bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
+    font-display: swap;
 }
 
 /* CSS Variables */
@@ -133,6 +141,15 @@ body {
     background-color: var(--white);
     color: var(--text-color);
     line-height: 1.6;
+}
+
+html[dir="ltr"] body {
+    direction: ltr;
+    text-align: left;
+}
+html[dir="ltr"] .tabs-container {
+    direction: ltr;
+    text-align: left;
 }
 
 a {
@@ -207,18 +224,17 @@ html.lang-en .footer-title,
 html.lang-en .footer-links a,
 html.lang-en .copyright,
 html.lang-en .footer-bottom,
-html[dir="ltr"] .footer-title,
+
 html[dir="ltr"] .footer-links a,
 html[dir="ltr"] .copyright,
 html[dir="ltr"] .footer-bottom {
-    font-family: 'NimbusSans Becker L* Regular', 'Nimbus Sans', 'Inter', Arial, sans-serif;
-    font-weight: 400;
-}
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: bold;
+  
+}html[dir="ltr"] .footer-title
+{  font-size: 22px;
+    font-weight:bold;}
 
-
-html[dir="ltr"] .header-gradient-bar {
-    flex-direction: row-reverse;
-}
 html[dir="ltr"] .navbar,
 html[dir="ltr"] .nav-menu {
     direction: ltr;
@@ -226,6 +242,25 @@ html[dir="ltr"] .nav-menu {
 
 html[dir="ltr"] .nav-menu {
     justify-content: flex-start;
+}
+html[dir="ltr"] .submenu {
+    left: 100%;
+    right: auto;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
+}
+
+html[dir="ltr"] .dropdown-link,
+html[dir="ltr"] .submenu li a {
+    text-align: left;
+}
+
+html[dir="ltr"] .dropdown-menu::before {
+    left: 20px;
+    right: auto;
+}
+html[dir="ltr"] .dropdown-menu {
+    left: 0;
+    right: auto;
 }
 /* ==========================================
    Hero Section / Banner
@@ -490,6 +525,85 @@ html[dir="ltr"] .nav-menu {
 }
 
 
+
+/* --- التجاوب للشاشات المتوسطة والكبيرة (أعلى من 768px) --- */
+@media (min-width: 769px) {
+    
+    /* للشاشات المتوسطة (Tablets & Small Laptops) */
+    @media (max-width: 1100px) {
+        .top-item {
+            padding: 0 12px; /* تقليل الحشو لتوفير مساحة */
+            font-size: 12px; /* تصغير الخط قليلاً */
+            gap: 6px;
+        }
+        
+        /* إخفاء الأيقونات الاجتماعية إذا ضاق المكان أو تقليل مسافاتها */
+        .social-list {
+            padding: 0 5px;
+        }
+        
+        .social-list a {
+            margin: 0 4px;
+        }
+
+        /* إخفاء نص "ACCOUNT" والإكتفاء بالأيقونة في الشاشات الضيقة */
+        /* .top-item.account-item span { display: none; } */
+    }
+
+    /* تحسين توزيع العناصر في الشاشات الكبيرة جداً (Desktop) */
+    @media (min-width: 1400px) {
+        .top-bar-container {
+            padding: 0 40px; /* زيادة الهامش الجانبي للشاشات العريضة */
+        }
+        
+        .top-item {
+            font-size: 14px; /* زيادة طفيفة في الخط للوضوح */
+            padding: 0 25px;
+        }
+    }
+html[dir="ltr"] .carousel-wrapper {
+    direction: rtl;
+    text-align: right;
+}
+    /* معالجة اتجاه العناصر والحدود عند تبديل اللغة (LTR / RTL) */
+    html[dir="ltr"] .top-item {
+        border-right: none;
+        border-left: 1px solid rgba(255, 255, 255, 0.2); /* نقل الخط الفاصل لليسار */
+    }
+
+    html[dir="ltr"] .top-item:first-child {
+        border-left: none; /* إخفاء الخط الفاصل لأول عنصر في الإنجليزية */
+    }
+
+    /* التأكد من بقاء الـ Top Bar مرئياً */
+    .top-bar-container {
+        display: flex !important;
+    }
+}
+
+/* تحسينات عامة للمرونة */
+.top-bar-container {
+    flex-wrap: nowrap; /* يمنع العناصر من النزول لسطر جديد */
+}
+
+.top-left-side, .top-right-side {
+    flex-shrink: 0; /* يمنع المجموعات من الإنكماش المشوه */
+}
+
+@media (max-width: 992px) {
+    .top-dropdown-menu {
+        min-width: 100px; /* تقليص العرض قليلاً */
+        transform: translateX(-50%) translateY(5px);
+    }
+}
+/* حماية العناصر من التداخل في الشاشات الصغيرة */
+@media (min-width: 769px) and (max-width: 992px) {
+    .top-left-side .top-item:nth-child(2) {
+        display: none; /* إخفاء العنوان (Map) إذا كانت الشاشة ضيقة جداً لتوفير مساحة */
+    }
+}
+
+
 /* ============================================*/
 
 
@@ -504,7 +618,15 @@ html[dir="ltr"] .nav-menu {
     position: relative;
     border-bottom: 2px solid #0d4a7c;
 }
-
+html[dir="ltr"] .tab-btn{
+background-image: url('../images/en-b.png');
+margin-left:5px;
+margin-right:-58px;
+text-align: left;
+}
+html[dir="ltr"] .tab-btn.active {
+background-image: url('../images/en-gre.png');
+}
 
 /* زر التبويب */
 .tab-btn {font-family: 'GEDinarTWOMedium';
@@ -583,6 +705,34 @@ html[dir="ltr"] .nav-menu {
             border-radius: 20px;
 }
 
+/* ضبط التبويب النشط لضمان الظهور فوق الجميع في كل اللغات */
+.tab-btn.active {
+    z-index: 20 !important;
+}
+
+/* إصلاح هوامش الإنجليزية (LTR) */
+html[dir="ltr"] .tab-btn:nth-child(1) { 
+    margin-left: 0; 
+    margin-right: -58px; 
+    z-index: 4;
+}
+
+html[dir="ltr"] .tab-btn:nth-child(2) { z-index: 3; }
+html[dir="ltr"] .tab-btn:nth-child(3) { z-index: 2; }
+html[dir="ltr"] .tab-btn:nth-child(4) { z-index: 1; margin-right: 0; }
+
+/* تحسين شكل النصوص داخل الأزرار حسب الاتجاه */
+html[dir="ltr"] .tab-btn {
+    text-align: center;
+    padding-left: 5px; /* مسافة للأيقونة من اليسار في الإنجليزية */
+    padding-right: 5px;
+}
+
+html[dir="rtl"] .tab-btn {
+    text-align: center;
+    padding-right: 5px; /* مسافة للأيقونة من اليمين في العربية */
+    padding-left: 5px;
+}
 
 /* محتوى التبويب */
 .tab-content {
@@ -1018,9 +1168,17 @@ html[dir="ltr"] .nav-menu {
     font-weight: 100;
     
 }
+.page-title-arabic 
+{  display: block; }
+
+html[dir="ltr"] .page-title-arabic 
+{  display: none;}
+html[dir="ltr"] .page-title-en
+{  font-size: 40pt; 
+margin-bottom: -10px;}
 
 .page-title-en {
-    font-family:'Adobe-Arabic', Times, serif;
+    font-family:'Adobe-Arabic';
     font-size: 30pt;
     color: #0f3375;
     margin-bottom: 15px;
@@ -1125,6 +1283,11 @@ html[dir="ltr"] .nav-menu {
     align-items: center;
     font-size: 12px;
 }
+html[dir="ltr"] .content-with-sidebar{
+direction: ltr;
+text-align: left;
+}
+
 
 /* ==========================================
    Sidebar Styles
@@ -1159,6 +1322,31 @@ html[dir="ltr"] .nav-menu {
 
 .sidebar-title { background-image: url('../images/hosa.png'); }
 .sidebar-title2 { background-image: url('../images/articalsame.png'); }
+
+
+/* --- الصور الافتراضية (العربية / RTL) --- */
+
+
+/* --- الصور عند تحويل اللغة (الإنجليزية / LTR) --- */
+html[dir="ltr"] .sidebar-title { 
+    background-image: url('../images/green-hotels.jpg'); /* ضع هنا مسار الصورة الإنجليزية */
+    background-position: left center; /* عكس التموضع ليكون جهة اليسار */
+    color:#fff;
+    font-size: 20px;
+    font-family: 'kalinga';
+    text-align: center;
+}
+
+html[dir="ltr"] .sidebar-title2 { 
+    background-image: url('../images/green-hotels.jpg'); /* ضع هنا مسار الصورة الإنجليزية */
+    background-position: left center;
+    color:#fff;
+    font-size: large;
+    font-size: 20px;
+    font-family: 'kalinga';
+    text-align: center;
+
+}
 
 .sidebar-list {
     padding: 0 5px;
@@ -1390,6 +1578,8 @@ html[dir="ltr"] .nav-menu {
     .page-title-en {
         font-size: 18px;
     }
+    html[dir="ltr"] .page-title-en
+    { font-size: 24px;}
     
     .filter-title {
         font-size: 20px;
@@ -1880,8 +2070,36 @@ html[dir="ltr"] .nav-menu {
 }
 
 
+/* الإعدادات الافتراضية (إخفاء الإنجليزي وإظهار العربي) */
+.content-en {
+    display: none;
+}
+.content-ar {
+    display: inline;
+}
+.moreText1 {
+    display: none; /* سيتم تحويله لـ inline بواسطة JS */
+}
+/* عند تحويل الموقع للغة الإنجليزية */
+html[dir="ltr"] .content-ar {
+    display: none;
+}
+html[dir="ltr"] .content-en {
+    display:inline;
+    font-family:'kalinga';
+    font-size: 26px;
+}
+
+.read-more-link1 {
+    color: #5364FF;
+    cursor: pointer;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
 .show-map-link {
-    color: var(--accent-color);
+    color: #5364FF;
     text-decoration: underline;
     cursor: pointer;
 }
@@ -2439,6 +2657,19 @@ z-index: 0;
     margin-bottom: 20px;
 }
 
+html[dir="ltr"] .ribbon{
+background-image: url('../images/titleen.png');
+text-align: left;
+}
+html[dir="ltr"] .ribbonop{
+background-image: url('../images/youropinion.png');
+text-align: left;
+ background-size:cover;
+ width: 400px;
+  height: 45px;
+  background-position:center;
+    background-size:contain;
+}
 
 /* Ribbon Style */
 .ribbonop {
@@ -2499,6 +2730,10 @@ z-index: 0;
 }*/
 
 /* Amenities Grid */
+html[dir="ltr"] .amenities-grid {
+    direction: ltr;
+    
+}
 .amenities-grid {
 
     display: grid;
@@ -2829,7 +3064,9 @@ width:auto;
     margin-top: -42px;
     margin-right: 0;
 }
-
+html[dir="ltr"] .reviews-content {
+    direction: ltr;
+}
 /* Reviews Content */
 .reviews-content {
     padding: 40px 20px;
@@ -2846,6 +3083,10 @@ width:auto;
     text-align: right;
     margin-bottom: 10px;
      
+}
+
+html[dir="ltr"] .review-header {
+    text-align: left;
 }
 
 .review-form {
@@ -2869,12 +3110,49 @@ width:auto;
     direction: rtl;
 }
 
+html[dir="ltr"] .form-input,
+html[dir="ltr"] .form-textarea {
+    direction: ltr;
+    text-align: left;
+}
+
 .form-input:focus,
 .form-textarea:focus {
     outline: none;
     border-color: var(--primary-color);
 }
+/* التصميم المشترك للزر */
+.dynamic-btn {
+    width: 200px; /* حسب حجم صورتك */
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    transition: 0.3s ease;
+}
 
+/* --- الحالة الافتراضية (العربي RTL) --- */
+html[dir="rtl"] .dynamic-btn {
+    background-image: url('../images/send.png'); /* مسار صورة الزر العربي */
+}
+
+/* --- الحالة عند تغيير اللغة (إنجليزي LTR) --- */
+html[dir="ltr"] .dynamic-btn {
+    background-image: url('../images/senden.png'); /* مسار صورة الزر الإنجليزي */
+    color: #fff;
+    font-size: 18px;
+ padding-left: 10px;
+ margin-left: 200px;
+}
+
+/* تأثير عند تمرير الماوس (اختياري) */
+.dynamic-btn:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
 .submit-btn {all:unset;
            background-image: url('../images/send.png');
             background-position:initial;
@@ -3475,7 +3753,7 @@ html[dir="ltr"] .logo-en { display: block;
 
 @font-face {
     font-family: 'ALQASSAM-EXTENDED';
-    src: url('../fonts/ALQASSAM-EXTENDED.ttf') format('truetype');
+    src: url('../fonts/Al-Qassam-Extended.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -3493,7 +3771,6 @@ html[dir="ltr"] .logo-en { display: block;
     font-weight: bold;
     font-style: normal;
 }
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap');
 
 /* ============================================
    1. متغيرات CSS والألوان الأساسية
@@ -3724,32 +4001,7 @@ html[dir="ltr"] .logo-en { display: block;
         display: none;
     }
 
-    .tab-btn {
-        
-        /*flex: 0 0 auto;  منع الأزرار من التمدد أو الانكماش */
-        min-width: 80px; /* تصغير العرض الأدنى */
-        height: 30px; /* تصغير الارتفاع */
-        font-size: 10px; /* تصغير الخط */
-        margin-left: -30px !important; /* إلغاء التداخل لإبقاء السطر مرتباً */
-        margin-right: 0 !important;
-        padding: 0 !important; /* تقليل المسافات الداخلية */
-        background-size: 100% 100%;
-        text-align: center;
-       
-        
-       
-    }
-
-    /* الزر النشط في الجوال بسطر واحد */
-    .tab-btn.active {
-        min-width: 80px; /* عرض أصغر للزر النشط في الجوال */
-        height: 30px;
-        margin-bottom: 0; /* تقليل الإزاحة ليتناسب مع السطر */
-        font-size: 10px;
-        background-size: 100% 100%;
-         background-color: transparent;
-        border: none;
-    }
+   
  
 
         .tab-btn .special-btn{
@@ -3779,6 +4031,8 @@ margin-bottom: -2px;}
 }
 /**********************************************/
 @media (max-width: 1024px) {
+
+   
     /* إظهار العناصر في الموبايل */
     .mobile-only-item {
         display: block !important;

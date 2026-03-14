@@ -154,7 +154,7 @@ $categoryFilter = isset($_GET['category']) ? $_GET['category'] : '';
 <!-- Hero Banner -->
 <section class="tours-hero-section">
     <div class='tours-hero-image'>
-    <img src="images/kuala-lumpur-banner.jpg" alt="كوالالمبور" class="tours-hero-img"
+    <img src="https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=1920" alt="كوالالمبور" class="tours-hero-img"
          onerror="this.src='https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=1200&h=400&fit=crop'">
 </div>
         </section>

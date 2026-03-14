@@ -19,6 +19,7 @@ $hotels = [
         'name_en' => 'Concorde Hotel Kuala Lumpur',
         'rating' => 5,
         'badge' => 'الأكثر مبيعاً',
+        'badge_en' => 'Best Seller',
         'badge_class' => 'best-seller',
         'image' => 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400'
     ],
@@ -28,6 +29,7 @@ $hotels = [
         'name_en' => 'Boulevard Hotel Kuala Lumpur',
         'rating' => 4,
         'badge' => 'موصى به',
+         'badge_en' => 'Recommended',
         'badge_class' => 'recommended',
         'image' => 'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=400'
     ],
@@ -37,6 +39,7 @@ $hotels = [
         'name_en' => 'JW Marriott Kuala Lumpur',
         'rating' => 5,
         'badge' => 'الأكثر مبيعاً',
+        'badge_en' => 'Best Seller',
         'badge_class' => 'best-seller',
         'image' => 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=400'
     ],
@@ -46,6 +49,7 @@ $hotels = [
         'name_en' => 'Concorde Hotel Kuala Lumpur',
         'rating' => 4,
         'badge' => 'جديد',
+        'badge_en' => 'New',
         'badge_class' => 'new',
         'image' => 'https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=400'
     ],
@@ -55,6 +59,7 @@ $hotels = [
         'name_en' => 'Boulevard Hotel Kuala Lumpur',
         'rating' => 5,
         'badge' => 'موصى به',
+        'badge_en' => 'Recommended',
         'badge_class' => 'recommended',
         'image' => 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=400'
     ],
@@ -64,6 +69,7 @@ $hotels = [
         'name_en' => 'JW Marriott Kuala Lumpur',
         'rating' => 5,
         'badge' => 'الأكثر مبيعاً',
+        'badge_en' => 'Best Seller',
         'badge_class' => 'best-seller',
         'image' => 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=400'
     ],
@@ -82,6 +88,7 @@ $hotels = [
         'name_en' => 'Boulevard Hotel Kuala Lumpur',
         'rating' => 3,
         'badge' => 'جديد',
+        'badge_en' => 'New',
         'badge_class' => 'new',
         'image' => 'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=400'
     ],
@@ -91,6 +98,7 @@ $hotels = [
         'name_en' => 'JW Marriott Kuala Lumpur',
         'rating' => 5,
         'badge' => 'الأكثر مبيعاً',
+       'badge_en' => 'Best Seller',
         'badge_class' => 'best-seller',
         'image' => 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=400'
     ],
@@ -100,6 +108,7 @@ $hotels = [
         'name_en' => 'Concorde Hotel Kuala Lumpur',
         'rating' => 4,
         'badge' => 'موصى به',
+          'badge_en' => 'Recommended',
         'badge_class' => 'recommended',
         'image' => 'https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=400'
     ],
@@ -118,6 +127,7 @@ $hotels = [
         'name_en' => 'JW Marriott Kuala Lumpur',
         'rating' => 5,
         'badge' => 'الأكثر مبيعاً',
+        'badge_en' => 'Best Seller',
         'badge_class' => 'best-seller',
         'image' => 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=400'
     ],
@@ -127,6 +137,7 @@ $hotels = [
         'name_en' => 'Concorde Hotel Kuala Lumpur',
         'rating' => 4,
         'badge' => 'جديد',
+         'badge_en' => 'New',
         'badge_class' => 'new',
         'image' => 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400'
     ],
@@ -145,6 +156,7 @@ $hotels = [
         'name_en' => 'JW Marriott Kuala Lumpur',
         'rating' => 5,
         'badge' => 'موصى به',
+         'badge_en' => 'Recommended',
         'badge_class' => 'recommended',
         'image' => 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=400'
     ],
@@ -154,6 +166,7 @@ $hotels = [
         'name_en' => 'Concorde Hotel Kuala Lumpur',
         'rating' => 4,
         'badge' => 'الأكثر مبيعاً',
+       'badge_en' => 'Best Seller',
         'badge_class' => 'best-seller',
         'image' => 'https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=400'
     ],
@@ -172,6 +185,7 @@ $hotels = [
         'name_en' => 'JW Marriott Kuala Lumpur',
         'rating' => 5,
         'badge' => 'جديد',
+        'badge_en' => 'New',
         'badge_class' => 'new',
         'image' => 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=400'
     ]
@@ -246,12 +260,17 @@ function renderStars($rating, $interactive = false) {
                 <div class="hotel-image-container">
                     <img src="<?php echo $hotel['image']; ?>" alt="<?php echo $hotel['name_ar']; ?>" class="hotel-image">
                     
-                    <?php if (!empty($hotel['badge'])): ?>
+                                   
                     <div class="hotel-badge <?php echo $hotel['badge_class']; ?>">
-                        <?php echo $hotel['badge']; ?>
-                    </div>
-                    <?php endif; ?>
-                    
+    <?php if (!empty($hotel['badge_en'])): ?>
+        <span class="badge-ar"><?php echo $hotel['badge']; ?></span>
+        <span class="badge-en"><?php echo $hotel['badge_en']; ?></span>
+    <?php else: ?>
+        <?php echo $hotel['badge']; ?>
+    <?php endif; ?>
+</div>
+
+
                     <!-- Action Icons -->
                     <div class="hotel-actions">
                         <button class="action-btn favorite-btn" title="إضافة للمفضلة">
@@ -266,18 +285,22 @@ function renderStars($rating, $interactive = false) {
                 </div>
                 
                 <!-- Hotel Info -->
-                <div class="hotel-info">
-                    <!-- Rating Stars -->
-                    <div class="hotel-rating">
-                        
-                        <?php echo renderStars($hotel['rating']); ?>
-                    </div>
-                    
-                    <h3 class="hotel-name-ar"><?php echo $hotel['name_ar']; ?></h3>
-                    <p class="hotel-name-en"><?php echo $hotel['name_en']; ?></p>
-                    
-                   <div class="button-con"><button class="btn-explore1"><a href="hotel-detail.php?id=<?php echo $hotel['id']; ?>" data-i18n="btn-explore">التفاصيل</a> </button></div>
-                </div>
+             <div class="hotel-info">
+    <div class="hotel-rating">
+        <?php echo renderStars($hotel['rating']); ?>
+    </div>
+    
+    <div class="hotel-names-wrapper">
+        <h3 class="hotel-name-ar"><?php echo $hotel['name_ar']; ?></h3>
+        <p class="hotel-name-en"><?php echo $hotel['name_en']; ?></p>
+    </div>
+    
+    <div class="button-con">
+        <button class="btn-explore1">
+            <a href="hotel-detail.php?id=<?php echo $hotel['id']; ?>" data-i18n="btn-explore">التفاصيل</a>
+        </button>
+    </div>
+</div>
             </div>
             <?php endforeach; ?>
         </div>

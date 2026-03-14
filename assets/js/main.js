@@ -108,6 +108,12 @@ function initI18n() {
             setStoredItem('site_lang', nextLang);
             i18nApplyLanguage(nextLang);
             this.closest('.has-dropdown1')?.classList.remove('is-open');
+
+            if (window.innerWidth <= 1024) {
+                document.getElementById('navbar')?.classList.remove('active');
+                document.getElementById('mobile-menu-btn')?.classList.remove('active');
+                document.querySelectorAll('.nav-item.active').forEach(item => item.classList.remove('active'));
+            }
         });
     });
 }
@@ -119,7 +125,7 @@ function initCurrencyAndDropdowns() {
     const dropdowns = document.querySelectorAll('.has-dropdown1');
     
     // استرجاع العملة المحفوظة
-    const savedCurrency = getStoredItem('site_currency') || 'USD';
+    const savedCurrency = getStoredItem('site_currency') || '🇸🇦 العربية';
     const currencyTrigger = dropdowns[0]?.querySelector('.dropdown-trigger');
     if (currencyTrigger && dropdowns[0]) {
         currencyTrigger.innerHTML = `<i class="fas fa-chevron-down" style="font-size: 0.7rem; margin-right: 5px;"></i> ${savedCurrency}`;

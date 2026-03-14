@@ -5,13 +5,16 @@
         
         <div class="top-left-side">
             <div class="top-item">
-                <i class="fas fa-phone"></i> <span> 123 456 7890 (100+)</span>
+                <i class="fas fa-phone"></i> 
+                <span>123 456 7890 (100+)</span>
             </div>
             <div class="top-item">
-                <i class="fas fa-map-marker-alt"></i> <span> 2903 Avenue Z, Brooklyn, NY, USA </span>
+                <i class="fas fa-map-marker-alt"></i> 
+                <span>2903 Avenue Z, Brooklyn, NY, USA</span>
             </div>
             <div class="top-item">
-                <i class="fas fa-envelope"></i> <span> info@housekey.com</span>
+                <i class="fas fa-envelope"></i> 
+                <span>info@housekey.com</span>
             </div>
             <div class="social-list">
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -19,11 +22,15 @@
                 <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 <a href="#"><i class="fab fa-google-plus-g"></i></a>
             </div>
-        </div> <div class="top-right-side">
+        </div> 
+
+        <div class="top-right-side">
+            
             <div class="top-item has-dropdown1" id="lang-dropdown">
                 <div class="dropdown-trigger">
-                    <span id="selected-lang-label">🇸🇦 العربية</span>
                     <i class="fas fa-chevron-down"></i>
+                    <span id="selected-lang-label">🇸🇦 العربية</span>
+                    
                 </div>
                 <ul class="top-dropdown-menu">
                     <li><a href="#" class="lang-option" data-lang="ar">🇸🇦 العربية</a></li>
@@ -42,16 +49,15 @@
                 </ul>
             </div>
 
-            <div class="top-item">
+            <div class="top-item account-item">
                 <a href="#"> 
                     <i class="fas fa-user"></i> 
                     <span data-i18n="header.account">ACCOUNT</span>  
                     <i class="fas fa-chevron-down"></i>
                 </a>
             </div>
+            
         </div> </div> </div>
-
-<!------------------------------------->
 
 
 
@@ -196,6 +202,8 @@
             <ul class="dropdown-menu">
                 <li><a href="#" class="dropdown-link">SAR - Rial</a></li>
                 <li><a href="#" class="dropdown-link">MYR - Ringgit</a></li>
+                <li><a href="#" class="dropdown-link">MYR - Ringgit</a></li>
+
             </ul>
         </li>
   

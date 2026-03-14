@@ -29,7 +29,7 @@
 }
 @font-face {
     font-family: 'ALQASSAM-EXTENDED';
-    src: url('../fonts/ALQASSAM-EXTENDED.ttf') format('truetype');
+    src: url('../fonts/Al-Qassam-Extended.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -59,6 +59,44 @@
     
     .gallery-grid {
         grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 1024px) {
+    html[dir="ltr"] .navbar {
+    flex-direction: row-reverse;
+     
+    
+}   html[dir="ltr"] .navbar.active {
+   
+    width: 100%;
+}
+      
+       .navbar.active {
+        right: 0; /* تظهر عند الضغط */
+    }
+     .hero-title {
+  
+        margin-bottom: 2px;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .nav-link {
+        flex-direction: row; /* في الجوال النص بجانب الأيقونة */
+        font-size: 16px;
+    }
+
+    .mobile-menu-btn {
+        display: block; /* يظهر فقط في الجوال */
+    }
+
+    .header-actions {
+        display: none; /* إخفاء زر الاتصال في الجوال أو تصغيره */
     }
 }
 
@@ -451,7 +489,9 @@
           width: 150px;
   height: 25px;
     }
-    
+    html[dir="ltr"] .ribbonop{
+        width:250px;
+  height: 45px;}
     
     /* Category Tabs */
     .category-tabs {
@@ -877,8 +917,9 @@
         font-size: 13px;
     }
     
-    .submit-btn {
-        min-height: 15px
+    .submit-btn ,html[dir="ltr"] .dynamic-btn{
+        min-height: 15px;
+        font-size: 15px;
     }
   
     
@@ -891,6 +932,9 @@
           width: 150px;
   height: 25px;
     }
+      html[dir="ltr"] .ribbonop{
+        width:200px;
+  height: 25px;}
     
     .ribbon::before {
         border-width: 14px 8px;
@@ -1047,7 +1091,7 @@
     .category-btn,
     .filter-btn,
     .details-btn,
-    .submit-btn {
+    .submit-btn,html[dir="ltr"] .dynamic-btn {
         min-height: 44px;
     }
     
@@ -1088,4 +1132,56 @@
         color: #e0e0e0;
     }
     */
+}
+/* --- الشاشات المتوسطة (Tablets - أقل من 1024px) --- */
+@media (max-width: 1024px) {
+    .tab-btn {
+        min-width: 185px; /* تقليل الحد الأدنى للعرض */
+        font-size: 16px;
+       
+    }
+    
+    
+    html[dir="ltr"] .tab-btn {
+        margin-right: -40px;
+        margin-left: 0;
+    }
+}
+
+/* --- الشاشات الصغيرة (Mobile - أقل من 768px) --- */
+@media (max-width: 768px) {
+    
+
+    .tab-btn {
+        min-width: 180px;
+        height: 36px;
+        font-size: 14px;
+         margin-left: -5px;
+     
+    }
+
+  
+
+    html[dir="ltr"] .tab-btn {
+        margin-right: -50px;
+  
+    }
+
+    .tab-btn.active {
+        min-width: 180px; /* تصغير حجم التبويب النشط في الموبايل */
+        height: 36px;
+    }
+}
+
+/* --- شاشات الجوال الضيقة (أقل من 480px) --- */
+@media (max-width: 480px) {
+    .tab-btn {
+        font-size: 11px;
+      
+        min-width: 110px;
+    }
+    .tab-btn.active {
+        min-width: 110px; /* تصغير حجم التبويب النشط في الموبايل */
+        height: 36px;
+    }
 }

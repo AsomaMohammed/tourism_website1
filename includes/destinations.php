@@ -7,55 +7,55 @@ $destinations = [
     [
         'id' => 1,
         'name' => 'ماليزيا',
-        'image' => 'assets/images/mala.png',
+        'image' => 'assets/images/mala.jpg',
        
     ],
     [
         'id' => 2,
         'name' => 'تايلاند',
-        'image' => 'assets/images/22.png',
+        'image' => 'assets/images/22.jpg',
        
     ],
     [
         'id' => 3,
         'name' => 'اندونيسيا',
-        'image' => 'assets/images/33.png',
+        'image' => 'assets/images/33.jpg',
        
     ],
     [
         'id' => 4,
         'name' => 'أذربيجان',
-        'image' => 'assets/images/mmm.png',
+        'image' => 'assets/images/mmm.jpg',
        
     ],
     [
         'id' => 5,
         'name' => 'تركيا',
-        'image' => 'assets/images/2.png',
+        'image' => 'assets/images/2.jpg',
        
     ],
     [
         'id' => 6,
         'name' => 'سنغافورة',
-        'image' => 'assets/images/3.png',
+        'image' => 'assets/images/3.jpg',
        
     ],
     [
         'id' => 7,
         'name' => 'أذربيجان',
-        'image' => 'assets/images/mmm.png',
+        'image' => 'assets/images/mmm.jpg',
        
     ],
     [
         'id' => 8,
         'name' => 'تركيا',
-        'image' => 'assets/images/2.png',
+        'image' => 'assets/images/2.jpg',
        
     ],
     [
         'id' => 9,
         'name' => 'سنغافورة',
-        'image' => 'assets/images/3.png',
+        'image' => 'assets/images/3.jpg',
        
     ]
 ];

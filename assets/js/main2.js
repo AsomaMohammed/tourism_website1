@@ -749,14 +749,19 @@ if (reviewForm) {
 /********************************************************** */
 document.addEventListener('DOMContentLoaded', function() {
     const dropdown = document.getElementById('ratingDropdown');
+    if (!dropdown) return;
+
     const header = dropdown.querySelector('.dropdown-header');
     const listItems = dropdown.querySelectorAll('.dropdown-list li');
     const selectedText = document.getElementById('selectedRatingText');
+    if (!header || !selectedText) return;
 
     // فتح وإغلاق القائمة عند الضغط على الرأس
-    header.addEventListener('click', () => {
-        dropdown.classList.toggle('active');
-    });
+    if (header) {
+        header.addEventListener('click', () => {
+            dropdown.classList.toggle('active');
+        });
+    }
 
     // التعامل مع اختيار عنصر من القائمة
     listItems.forEach(item => {

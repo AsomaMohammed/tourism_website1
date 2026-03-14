@@ -45,6 +45,7 @@
       
             <div class="footer-bottom-content">
                 <p class="copyright">Ä﹤﹤ &copy; ocean travel.com 2016. All rights reserved.</p>
+              
                 <div class="social-icons-footer">
                     <a href="http://ocean-malaysia.com" target="_blank" class="social-link" title="Share">
                         <i class="fas fa-share-alt"></i> </a>

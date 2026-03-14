@@ -50,7 +50,7 @@
             </svg>
             -->
             <div class="hero-title-container">
-                <h1 class="hero-title" data-i18n="hero-title">الدول السياحية</h1>
+                <h1 class="hero-title" data-i18n="hero-title"><!--الدول السياحية --></h1>
 
             </div>
         </div>

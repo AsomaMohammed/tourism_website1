@@ -10,6 +10,7 @@ $hotel = [
     'rating' => 5,
     'address' => '12, Jalan Pinang, Kuala Lumpur, 50450 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur',
     'brief' => 'يعتبر فندق جراند حياة من احدث الفنادق في كوالالمبور ويقع بالقرب من البرجين التوأم.الالمبور للمؤتمرات (كيه إل سي سي). ويتميز الفندق بمسبح في الهواء الطلق، ويمكن للضيوف الاستمتاع بوجبات الطعام في 3 مطاعم في الموقع أو تناول مشروب في البار الذي يطل على برجي بتروناس التوأم. كما تتوفر خدمة الواي فاي مجاناً في جميع أنحاء مكان الإقامة.الالمبور للمؤتمرات (كيه إل سي سي). ويتميز الفندق بمسبح في الهواء الطلق، ويمكن للضيوف الاستمتاع بوجبات الطعام في 3 مطاعم في الموقع أو تناول مشروب في البار الذي يطل على برجي بتروناس التوأم. كما تتوفر خدمة الواي فاي مجاناً في جميع أنحاء مكان الإقامة.',
+'brief_en' => 'The Grand Hyatt is one of Kuala Lumpurs newest hotels and is located near the Petronas Twin Towers (KLCC). The hotel features an outdoor pool, and guests can enjoy meals at one of the three on-site restaurants or have a drink at the bar overlooking the Petronas Twin Towers. Free Wi-Fi is available throughout the property',
     'description' => 'يقع جراند الالمبور للمؤتمرات (كيه إل سي سي). ويتميز الفندق بمسبح في الهواء الطلق، ويمكن للضيوف الاستمتاع بوجبات الطعام في 3 مطاعم في الموقع أو تناول مشروب في البار الذي يطل على برجي بتروناس التوأم. كما تتوفر خدمة الواي فاي مجاناً في جميع أنحاء مكان الإقامة.حياة كوالالمبور الفاخر ذو الـ 5 نجوم بجوار مركز كو',
     'full-decription'=>'يقع مكان الإقامة على بعد 400 متر من مركز بافيليون للتسوق وعلى مسافة 500 متر من برجي بتروناس التوأم. ويقع على بعد 10 دقائق بالسيارة من الأوركسترا الفيلهارمونية الماليزية. بينما يقع مطار كوالالمبور الدولي على مسافة 68.6 كم. ويمكن ترتيب خدمات نقل المطار مقابل تكلفة إضافية.
 يمكنك تناول العشاء في مطعم الفندق THIRTY8 المميز، والذي يقدم مجموعة مختارة من المأكولات الصينية واليابانية والغربية. ويتميز JP teres بمنطقة داخلية مريحة لتناول الطعام وتراس خارجي كبير مع بار جزيرة محاط بمناظر طبيعية خضراء مورقة. ويقدم Poolhouse إمكانية تناول الطعام طوال اليوم مع المأكولات المحلية والعالمية، وهو عبارة عن منزل زجاجي بجانب المسبح ويتميز بأجواء الهواء الطلق.
@@ -52,7 +53,7 @@ $rooms = [
         'name_en' => 'Grand Club',
         'size' => '85 متر مربع',
         'description' => 'جناح فاخر مع غرفة معيشة منفصلة وإطلالة بانورامية على المدينة.',
-        'amenities' => ['واي فاي', 'تكييف', 'حمام خاص', 'تلفزيون بشاشة مسطحة', 'ميني بار', 'مسبح مع إطلالة'],
+        'amenities' => ['واي فــاي', 'تكييف', 'حمام خاص', 'تلفزيون بشاشة مسطحة', 'ميني بار', 'مسبح مع إطلالة'],
         'note' => '',
         'video' => 'https://www.youtube.com/embed/lDM_yqYLSTo',
         'images' => []
@@ -63,7 +64,7 @@ $rooms = [
         'name_en' => 'Grand Suit',
         'size' => '120 متر مربع',
         'description' => 'سويت رئاسي مع جميع وسائل الراحة والرفاهية.',
-        'amenities' => ['واي فاي', 'تكييف', 'حمام خاص', 'تلفزيون بشاشة مسطحة', 'ميني بار'],
+        'amenities' => ['واي فــاي', 'تكييف', 'حمام خاص', 'تلفزيون بشاشة مسطحة', 'ميني بار'],
         'note' => '',
         'video' => '',
         'images' => []
@@ -74,7 +75,7 @@ $rooms = [
         'name_en' => 'Grand Deluxe',
         'size' => '65 متر مربع',
         'description' => 'أسرّة مريحة وتتميز الغرفة بالمساحة الممتازة وبصالة صغيرة متصلة، وتضم سرائر منفصلة ويمكن طلب سرير كبير، واريكة جلوس ومكتب عمل وتلفزيون بشاشة مسطحة ومرافق لصنع الشاي والقهوة ويحتوي الحمام الداخلي على مرافق دش ومجفف الشعر ولوازم استحمام مجانية.',
-        'amenities' => ['65 متر مربع','تكييف', 'حمام خاص','تلفزيون بشاشة مسطحة','واي فاي', 'مسبح مع إطلالة', 'عازل للصوت','ميني بار'],
+        'amenities' => ['65 متر مربع','تكييف', 'حمام خاص','تلفزيون بشاشة مسطحة','واي فــاي', 'مسبح مع إطلالة', 'عــازل للصــوت','ميني بار'],
         'note' => 'لا يسمح بالتدخين في الغرفة',
         'video' => 'https://www.youtube.com/embed/lDM_yqYLSTo',
         'images' => [
@@ -102,7 +103,7 @@ function renderStars($rating) {
 
 <!-- Page Title Section -->
 <section class="page-title-section hotel-title-section">
-    <h1 class="page-title-ar"><?php echo $hotel['name_ar']; ?></h1>
+    <h1 class="page-title-ar page-title-arabic"><?php echo $hotel['name_ar']; ?></h1>
     <h2 class="page-title-en"><?php echo $hotel['name_en']; ?></h2>
     
     <!-- Rating Stars -->
@@ -120,15 +121,20 @@ function renderStars($rating) {
     <!-- Brief Description -->
   
 
- <p class="page-description hotel-brief">
-    <span><?php echo mb_substr($hotel['brief'], 0, 74, "UTF-8"); ?></span>
-    
-    <span id="dots">...</span>
-    <span id="moreText" style="display: none;">
-        <?php echo mb_substr($hotel['brief'], 74, null, "UTF-8"); ?>
+<p class="page-description hotel-brief" style="display: block;">
+    <span class="content-ar">
+        <span class="visible-text"><?php echo mb_substr($hotel['brief'], 0, 74, "UTF-8"); ?></span>
+        <span class="dots">...</span>
+        <span class="moreText" style="display: none;"><?php echo mb_substr($hotel['brief'], 74, null, "UTF-8"); ?></span>
+        <a href="javascript:void(0);" onclick="toggleText(this)" class="readMoreBtn read-more-link">اقرأ المزيد</a>
     </span>
 
-    <a href="javascript:void(0);" onclick="toggleText()" id="readMoreBtn" class="read-more-link">اقرأ المزيد</a>
+    <span class="content-en">
+        <span class="visible-text"><?php echo mb_substr($hotel['brief_en'], 0, 64, "UTF-8"); ?></span>
+        <span class="dots">...</span>
+        <span class="moreText" style="display: none;"><?php echo mb_substr($hotel['brief_en'], 64, null, "UTF-8"); ?></span>
+        <a href="javascript:void(0);" onclick="toggleText(this)" class="readMoreBtn read-more-link1">Read more</a>
+    </span>
 </p>
 </section>
 
@@ -167,20 +173,20 @@ function renderStars($rating) {
             <aside class="sidebar hotel-sidebar">
                 <!-- Similar Hotels -->
                 <div class="sidebar-section">
-                    <div class="sidebar-title">فنادق مشابهه في كوالالمبور</div>
+                    <div class="sidebar-title" data-i18n="hotels_s">فنادق مشابهه في كوالالمبور</div>
                     <ul class="sidebar-list">
                         <?php for ($i = 0; $i < 6; $i++): ?>
-                        <li><a href="#">فنادق مشابهه في كوالالمبور</a></li>
+                        <li><a href="#" data-i18n="hotels_s">فنادق مشابهه في كوالالمبور</a></li>
                         <?php endfor; ?>
                     </ul>
                 </div>
                 
                 <!-- Related Articles -->
                 <div class="sidebar-section">
-                    <div class="sidebar-title2">مقالات قد تهمك مشابهه</div>
+                    <div class="sidebar-title2" data-i18n="Articles_s">مقالات قد تهمك مشابهه</div>
                     <ul class="sidebar-list">
                         <?php for ($i = 0; $i < 8; $i++): ?>
-                        <li><a href="#">مقالات قد تهمك مشابهه</a></li>
+                        <li><a href="#" data-i18n="Articles_s">مقالات قد تهمك مشابهه</a></li>
                         <?php endfor; ?>
                     </ul>
                 </div>
@@ -198,10 +204,10 @@ function renderStars($rating) {
                 <div class="tabs-container hotel-tabs">
                     <div class="tabs-header">
                         
-                        <button class="tab-btn active" data-tab="rooms">أنواع الغرف</button>
-                        <button class="tab-btn" data-tab="about">نبذة عن الفندق</button>
-                        <button class="tab-btn " data-tab="location-tab">الموقع</button>
-                        <button class="tab-btn special-btn" data-tab="reviews">التقييم</button>
+                        <button class="tab-btn active" data-tab="rooms" data-i18n="t-room">أنواع الغرف</button>
+                        <button class="tab-btn" data-tab="about" data-i18n="hotel-d">نبذة عن الفندق</button>
+                        <button class="tab-btn " data-tab="location-tab" data-i18n="loc">الموقع</button>
+                        <button class="tab-btn special-btn" data-tab="reviews" data-i18n="reviews">التقييم</button>
                     </div>
                     
 
@@ -279,7 +285,7 @@ function renderStars($rating) {
                                     <!-- Room Details Section -->
                                     <div class="room-details-section">
                                         <div class="room-details-header">
-                                            <span class="ribbon">تفاصيل عن الغرفة</span>
+                                            <span class="ribbon" data-i18n="room-de" >تفاصيل عن الغرفة</span>
                                         </div>
                                         <div class="nearby-wrapper">
                                         
@@ -377,7 +383,7 @@ function renderStars($rating) {
                             <div class="about-section">
                                 
                                 <div class="section-ribbon">
-                                    <span class="ribbon-text">نبـذة عن الفنـــدق</span>
+                            <!--ribbon-text تم تغيير الكلاس-->    <span class="ribbon" data-i18n="hotel-d">نبـذة عن الفنـــدق</span>
                                 </div>
                                 <div class="nearby-wrapper">
                                 <div class="about-text-content">
@@ -417,7 +423,7 @@ function renderStars($rating) {
                             <!-- Nearby Attractions -->
                             <div class="nearby-section">
                                 <div class="nearby-header">
-                                    <span class="ribbon">أفضل المعالم السياحية</span>
+                                    <span class="ribbon" data-i18n="top_att">أفضل المعالم السياحية</span>
                                 </div>
                                 <div class="nearby-wrapper">
                                 <div class="nearby-grid">
@@ -448,7 +454,7 @@ function renderStars($rating) {
                             <!-- Nearby Places Categories -->
                             <div class="nearby-categories">
                                 <div class="category-header">
-                                    <span class="ribbon">الاماكن القريبة</span>
+                                    <span class="ribbon" data-i18n="NEARBY">الاماكن القريبة</span>
                                 </div>
                                 <div class="nearby-wrapper">
 
@@ -509,7 +515,7 @@ function renderStars($rating) {
                                <div class="nearby-wrapper1">
                             <div class="review-form-section">
                                 <div class="review-header">
-                                    <span class="ribbonop"></span><!--رأيك يهمنا-->
+                                    <span class="ribbonop" ></span><!--رأيك يهمنا-->
                                 </div>
                                 
                                 <form class="review-form">
@@ -519,8 +525,9 @@ function renderStars($rating) {
                                     <div class="form-group">
                                         <textarea class="form-textarea" data-i18n-placeholder="reviews.comment_placeholder" placeholder="شاركنا تعليقك" rows="5"></textarea>
                                     </div>
-                                    <button type="submit" class="submit-btn" data-i18n="reviews.submit"></button>
-                                </form>
+                                  <button type="submit" class="submit-btn dynamic-btn" data-i18n="reviews.submit">
+    </button>
+  </form>
                                
                             </div>
                         </div>
@@ -537,29 +544,27 @@ function renderStars($rating) {
 
 
 <script>
-function toggleText() {
-    var dots = document.getElementById("dots");
-    var moreText = document.getElementById("moreText");
-    var btnText = document.getElementById("readMoreBtn");
+function toggleText(btn) {
+    const container = btn.parentElement;
+    const moreText = container.querySelector(".moreText");
+    const dots = container.querySelector(".dots");
 
-    if (dots.style.display === "none") {
-        // حالة الإغلاق (عرض أقل)
-        dots.style.display = "inline";
-        btnText.innerHTML = "اقرأ المزيد";
-        moreText.style.display = "none";
-    } else {
-        // حالة الفتح (اقرأ المزيد)
+    if (moreText.style.display === "none") {
+        moreText.style.display = "inline"; // التأكد أنها inline للبقاء في نفس السطر
         dots.style.display = "none";
-        btnText.innerHTML = "عرض أقل";
-        moreText.style.display = "inline";
+        btn.innerHTML = (document.documentElement.dir === "ltr") ? "Read Less" : "عرض أقل";
+    } else {
+        moreText.style.display = "none";
+        dots.style.display = "inline";
+        btn.innerHTML = (document.documentElement.dir === "ltr") ? "Read more" : "اقرأ المزيد";
     }
 }
 
-</script>
 
 
 
-<script>
+
+
     var player;
 
     // هذه الوظيفة يتم استدعاؤها تلقائياً عند تحميل مكتبة يوتيوب

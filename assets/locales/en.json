@@ -35,5 +35,16 @@
     "menu.hotels.thailand":"Hotels in Thailand",
     "menu.areas.malaysia":"Tourist areas in Malaysia",
     "menu.areas.indonesia":"Tourist areas in Indonesia",
-    "menu.areas.thailand":"Tourist areas in Thailand"
+    "menu.areas.thailand":"Tourist areas in Thailand",
+    "videosphotos":"Video & Pictures",
+    "descrip":"Description",
+    "loc":"Location",
+    "reviews":"Reviews",
+    "hotel-d":"Hotel Description",
+    "t-room":"Type Rooms",
+    "top_att":"Top Attraction",
+    "room-de":"Room Details",
+    "hotels_s":"Similar Hotels",
+    "Articles_s":"Similar Articles",
+    "NEARBY":"Nearby Places"
 }

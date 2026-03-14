@@ -6,8 +6,6 @@
 /* ============================================
    استيراد الخطوط
    ============================================ */
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');   
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 /* Font Faces */
 @font-face {
     font-family: 'SwissraCondensed-Medium';
@@ -33,7 +31,7 @@
 
 @font-face {
     font-family: 'ALQASSAM-EXTENDED';
-    src: url('../fonts/ALQASSAM-EXTENDED.ttf') format('truetype');
+    src: url('../fonts/Al-Qassam-Extended.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -50,9 +48,6 @@
     font-weight: bold;
     font-style: normal;
 }
-
-
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap');
 
 /* ============================================
    1. متغيرات CSS والألوان الأساسية
@@ -163,13 +158,16 @@ html.lang-en .footer-title,
 html.lang-en .footer-links a,
 html.lang-en .copyright,
 html.lang-en .footer-bottom,
-html[dir="ltr"] .footer-title,
+
 html[dir="ltr"] .footer-links a,
 html[dir="ltr"] .copyright,
 html[dir="ltr"] .footer-bottom {
-    font-family: 'NimbusSans Becker L* Regular', 'Nimbus Sans', 'Inter', Arial, sans-serif;
-    font-weight: 400;
-}
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: bold;
+  
+}html[dir="ltr"] .footer-title
+{  font-size: 22px;
+    font-weight:bold;}
 
 html.lang-en .copyright,
 html[dir="ltr"] .copyright {
@@ -257,6 +255,8 @@ html[dir="ltr"] .dropdown-menu {
  تجربة
 /* ============================================*/
 .top-bar-container {
+   
+      flex-wrap: wrap; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -415,6 +415,81 @@ html[dir="ltr"] .header-gradient-bar {
 }
 
 
+
+/* --- التجاوب للشاشات المتوسطة والكبيرة (أعلى من 768px) --- */
+@media (min-width: 769px) {
+    
+    /* للشاشات المتوسطة (Tablets & Small Laptops) */
+    @media (max-width: 1100px) {
+        .top-item {
+            padding: 0 12px; /* تقليل الحشو لتوفير مساحة */
+            font-size: 12px; /* تصغير الخط قليلاً */
+            gap: 6px;
+        }
+        
+        /* إخفاء الأيقونات الاجتماعية إذا ضاق المكان أو تقليل مسافاتها */
+        .social-list {
+            padding: 0 5px;
+        }
+        
+        .social-list a {
+            margin: 0 4px;
+        }
+
+        /* إخفاء نص "ACCOUNT" والإكتفاء بالأيقونة في الشاشات الضيقة */
+        /* .top-item.account-item span { display: none; } */
+    }
+
+    /* تحسين توزيع العناصر في الشاشات الكبيرة جداً (Desktop) */
+    @media (min-width: 1400px) {
+        .top-bar-container {
+            padding: 0 40px; /* زيادة الهامش الجانبي للشاشات العريضة */
+        }
+        
+        .top-item {
+            font-size: 14px; /* زيادة طفيفة في الخط للوضوح */
+            padding: 0 25px;
+        }
+    }
+
+    /* معالجة اتجاه العناصر والحدود عند تبديل اللغة (LTR / RTL) */
+    html[dir="ltr"] .top-item {
+        border-right: none;
+        border-left: 1px solid rgba(255, 255, 255, 0.2); /* نقل الخط الفاصل لليسار */
+    }
+
+    html[dir="ltr"] .top-item:first-child {
+        border-left: none; /* إخفاء الخط الفاصل لأول عنصر في الإنجليزية */
+    }
+
+    /* التأكد من بقاء الـ Top Bar مرئياً */
+    .top-bar-container {
+        display: flex !important;
+    }
+}
+
+/* تحسينات عامة للمرونة */
+.top-bar-container {
+    flex-wrap: nowrap; /* يمنع العناصر من النزول لسطر جديد */
+}
+
+.top-left-side, .top-right-side {
+    flex-shrink: 0; /* يمنع المجموعات من الإنكماش المشوه */
+}
+
+@media (max-width: 992px) {
+    .top-dropdown-menu {
+        min-width: 100px; /* تقليص العرض قليلاً */
+        transform: translateX(-50%) translateY(5px);
+    }
+}
+/* حماية العناصر من التداخل في الشاشات الصغيرة */
+@media (min-width: 769px) and (max-width: 992px) {
+    .top-left-side .top-item:nth-child(2) {
+        display: none; /* إخفاء العنوان (Map) إذا كانت الشاشة ضيقة جداً لتوفير مساحة */
+    }
+}
+
 /* ============================================
 
 /* ============================================
@@ -491,6 +566,7 @@ html[dir="ltr"] .nav-menu {
 /* افتراضياً: إخفاء شعار الإنجليزية وإظهار العربي */
 .logo-en { display: none; }
 .logo-ar { display: block; }
+
 
 /* عندما يكون اتجاه الصفحة يساراً (اللغات الأجنبية) */
 html[dir="ltr"] .logo-ar { display: none; }
@@ -1534,12 +1610,13 @@ html[dir="ltr"] .tab-button:first-child {
 
 /* تصميم البطاقة - Card Styling (للفيديو والصور) */
 .testimonial-card {
-  background-color: #fff;
+    background-color: #fff;
     border-radius: 15px;
     overflow: hidden;
-    height:282.11px;
+    height: 282.11px; /* الأبعاد الثابتة التي حددتها */
     width: 282.65px;
-   
+    position: relative; /* ضروري لتموضع العناصر الداخلية */
+    transition: all 0.3s ease;
 }
 
 .testimonial-card:hover {
@@ -1549,29 +1626,39 @@ html[dir="ltr"] .tab-button:first-child {
 
 /* تصميم الفيديوهات */
 .video-wrapper {
-   position: relative;
-    width: 100%;
-    padding-bottom: 115%; /* الحفاظ على شكل المربع 1:1 */
-    background-color: #000; /* خلفية سوداء تظهر فقط أثناء تحميل الفيديو */
-}
-.testimonial-video, 
-.video-wrapper iframe, 
-.video-wrapper video {
-    position: absolute;
+    position: absolute; /* جعلها تغطي الكارد بالكامل */
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* يمنع التمطيط */
-    border: none;
+    background-color: #000; /* خلفية سوداء لتحسين مظهر التحميل */
+}
+
+.testimonial-video, 
+.video-wrapper iframe, 
+.video-wrapper video {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover; /* هذا هو السر: سيقوم بقص الفيديو ليملأ المربع دون تمطيط */
+    display: block;
+}
+
+
+@media (max-width: 768px) {
+    .testimonial-card {
+        width: 100%; /* ليأخذ عرض الشاشة الصغير */
+        max-width: 280px; /* تحديد أقصى عرض */
+        height: 280px; /* الحفاظ على الشكل المربع */
+        margin: 0 auto; /* توسيط الكارد */
+    }
 }
 
 .play-button {
-  position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
+    position: absolute;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    z-index: 10; /* رفع القيمة لضمان الظهور فوق الفيديو */
     background: rgba(255, 255, 255, 0.9);
     color: #f00;
     width: 50px;
@@ -1581,7 +1668,18 @@ html[dir="ltr"] .tab-button:first-child {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
 }
+
+/* تعديل للجوال */
+@media (max-width: 768px) {
+    .play-button {
+        width: 40px; /* تصغير طفيف ليناسب حجم الكارد الصغير */
+        height: 40px;
+        font-size: 14px;
+    }
+}
+
 /*.wa{
     position:absolute;
     margin-top: -200px;
@@ -1701,7 +1799,7 @@ font-family:'SwissraCondensed-Medium';
 }
 
 .tours-hero-img{
-       object-fit:contain;
+       object-fit:cover;
         position: relative;
     
     width: 100%;
@@ -2452,8 +2550,13 @@ border-radius: 10px;
       z-index: 0;
 }
 .tab-button:first-child {
- /*    border-radius: 250px 0 0 0;*/
+
       margin-left: -50px;
+}
+
+html[dir="ltr"] .tab-button:first-child.active {
+   margin-right:30px; 
+
 }
 
 
@@ -3437,6 +3540,29 @@ html[dir="ltr"] .dropdown-list li {
     
     z-index: 10; /* ليكون خلف الوسام وأمام الكارت */
 }
+
+/* في الوضع الطبيعي (عربي) */
+.badge-en {
+    display: none; /* إخفاء الإنجليزي */
+}
+
+.badge-ar {
+    display: inline; /* إظهار العربي */
+}
+
+/* عندما يتغير اتجاه الصفحة إلى إنجليزي */
+html[dir="ltr"] .badge-ar {
+    display: none; /* إخفاء العربي */
+}
+
+html[dir="ltr"] .badge-en {
+    display: inline; /* إظهار الإنجليزي */
+    font-family: 'Tunga', sans-serif;
+    font-weight: 100;
+}
+
+
+
 /*.hotel-badge.best-seller {
     background-color: #e74c3c;
 }
@@ -3561,23 +3687,49 @@ margin-top: 5px;
     height: 35px;
 }
 
+/* الحاوية الأساسية للأسماء */
+/* الحاوية المشتركة */
+.hotel-names-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px; /* مسافة افتراضية صغيرة جداً بين العناصر */
+}
+
+/* --- التنسيق العربي (الافتراضي) --- */
 .hotel-name-ar {
-   font-family:'GEDinarTwo';
+    order: 1;
+    margin-bottom: 2px; /* مسافة أسفل العربي ليظهر الإنجليزي بوضوح تحته */
+    font-family: 'GEDinarTwo';
     font-size: 18pt;
     color: #E81F25;
-    margin-bottom: 1px;
-    text-align: center;
-    font-weight: 100;
 }
 
 .hotel-name-en {
+    order: 2;
+    margin-bottom: 0;
     font-family: 'Adobe-Arabic';
-    font-size:21pt;
+    font-size: 21pt;
     color: #154A98;
-    margin-bottom: 2px;
-    font-weight: 500;
-    text-align: center;
 }
+
+/* --- التنسيق الإنجليزي (عند تغيير اللغة) --- */
+html[dir="ltr"] .hotel-name-en {
+    order: 1;
+    margin-bottom: -5px; /* مسافة أسفل الإنجليزي لأنه أصبح الأول */
+    font-family: 'Adobe-Arabic', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+html[dir="ltr"] .hotel-name-ar {
+    order: 2;
+    margin-bottom: 0; /* إلغاء المسافة لأن العربي أصبح في الأسفل */
+    font-family: 'GEDinarTwo', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+}
+
 
 /* Details Button */
 .details-btn {

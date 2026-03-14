@@ -23,7 +23,7 @@ $photos = [
     
         
         <div class="section-header">
-            <h2 class="section-title" data-i18n="section-title">آراء العملاء</h2>
+            <h2 class="section-title" data-i18n="section-title"><!--آراء العملاء  --></h2>
         </div>
         
     <div class="tabs">
